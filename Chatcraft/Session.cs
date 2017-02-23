@@ -219,7 +219,7 @@ namespace Chatcraft
             {
                 { "Имя", GetTitle() + " " + name },
                 { "Здоровье", GetHP()+"/"+GetMaxHP() },
-                { "Мана", GetMP()+"/"+GetMaxMP() },
+                //{ "Мана", GetMP()+"/"+GetMaxMP() },
                 { "Уровень", GetLevel().ToString() },
                 { "Опыт", GetExp()+"/"+GetExpTNL() },
                 { "Золото", gold.ToString() },
@@ -229,7 +229,7 @@ namespace Chatcraft
                 { "bbb", "%divider%"},
                 { "Сила", GetStr().ToString() },
                 { "Ловкость", GetDex().ToString()},
-                { "Интеллект", GetInt().ToString()},
+                //{ "Интеллект", GetInt().ToString()},
                 { "Выносливость", GetConst().ToString()},
                 { "Харизма", GetCha().ToString() },
                 { "Удача", GetLuck().ToString() }
@@ -239,7 +239,7 @@ namespace Chatcraft
             {
                 { "Сила", GetStr().ToString() },
                 { "Ловкость", GetDex().ToString()},
-                { "Интеллект", GetInt().ToString()},
+                //{ "Интеллект", GetInt().ToString()},
                 { "Выносливость", GetConst().ToString()},
                 { "Харизма", GetCha().ToString() },
                 { "Удача", GetLuck().ToString() }
@@ -366,18 +366,16 @@ namespace Chatcraft
             return string.Format(@"{0}
 👤<b>Имя: {1} {2}</b>
 ♥️Здоровье: {3}/{4}
-🔮Мана: {5}/{6}
 ⭐️Уровень: {7}
 🔥Опыт: {8}/{18}
 💰Золото: {9}
  <b>----------------------------</b>
 👊<b>Характеристики:</b>
-{20}
-{21}
+Атака {20}
+Защита {21}
 <b>----------------------------</b>
 💪Сила: {10}
 🎯Ловкость: {11}
-📖Интеллект: {12}
 🚜Выносливость: {13}
 🎭Харизма: {14}
 🎲Удача: {15}
@@ -780,13 +778,13 @@ namespace Chatcraft
                         msg += attributePoints > 0 ? "\nУ вас [" + attributePoints + "] свободных очков характеристик" : "";
                         SendMessage(msg);
                         break;
-                    case "📖Интеллект":
-                        intellect++;
-                        attributePoints--;
-                        msg = "Добавлено +1 очко к " + attribute;
-                        msg += attributePoints > 0 ? "\nУ вас [" + attributePoints + "] свободных очков характеристик" : "";
-                        SendMessage(msg);
-                        break;
+                    //case "📖Интеллект":
+                    //    intellect++;
+                    //    attributePoints--;
+                    //    msg = "Добавлено +1 очко к " + attribute;
+                    //    msg += attributePoints > 0 ? "\nУ вас [" + attributePoints + "] свободных очков характеристик" : "";
+                    //    SendMessage(msg);
+                    //    break;
                     case "🎯Ловкость":
                         dexterity++;
                         attributePoints--;

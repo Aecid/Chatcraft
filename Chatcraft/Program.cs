@@ -261,7 +261,7 @@ namespace Chatcraft
             if (message.Text.StartsWith("/levelUp"))
             {
                 if (currentSession.attributePoints != 0)
-                    await currentSession.SendMessage("У вас [" + currentSession.attributePoints + "] свободных очков характеристик.\nКакую характеристику вы хотите улучшить?", Helper.GetKeyboard(new string[][] { new string[] { "+1 💪Сила", "+1 🎯Ловкость" }, new string[] { "+1 📖Интеллект", "+1 🚜Выносливость" }, new string[] { "Назад" } }));
+                    await currentSession.SendMessage("У вас [" + currentSession.attributePoints + "] свободных очков характеристик.\nКакую характеристику вы хотите улучшить?", Helper.GetKeyboard(new string[][] { new string[] { "+1 💪Сила", "+1 🎯Ловкость" }, new string[] { "+1 🚜Выносливость" }, new string[] { "Назад" } }));
             }
 
             if (message.Text.StartsWith("+1"))
@@ -351,12 +351,12 @@ namespace Chatcraft
                     case "Пещера ⬅":
                         currentSession.StartQuest("Пещера");
                         break;
-                    case "Шахта ➡":
-                        currentSession.StartQuest("Лес");
-                        break;
-                    case "Заброшенный город ↙":
-                        currentSession.StartQuest("Лес");
-                        break;
+                    //case "Шахта ➡":
+                    //    currentSession.StartQuest("Лес");
+                    //    break;
+                    //case "Заброшенный город ↙":
+                    //    currentSession.StartQuest("Лес");
+                    //    break;
                     case "Назад ⬇":
                         currentSession.SendMessage(currentSession.GetStatus());
                         break;
