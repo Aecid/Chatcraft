@@ -1,0 +1,15 @@
+{
+  "id": 1,
+  "name": "Убервафля",
+  "price": 100,
+  "atk": 5,
+  "def": 0,
+  "mod_str": 4,
+  "mod_int": 2,
+  "mod_dex": 3,
+  "mod_con": 2,
+  "mod_cha": 0,
+  "mod_luck": 3,
+  "isEquipment": true,
+  "slot": "slotHead"
+}
