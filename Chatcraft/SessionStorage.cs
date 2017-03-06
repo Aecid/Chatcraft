@@ -23,9 +23,9 @@ namespace Chatcraft
 
         public Session GetSession(long chatId, string username = "")
         {
-            if (sessions.Exists(s => s.id == chatId))
+            if (sessions.Exists(s => s.Id == chatId))
             {
-                return sessions.FirstOrDefault(s => s.id == chatId);
+                return sessions.FirstOrDefault(s => s.Id == chatId);
             }
             else
             {
@@ -38,10 +38,10 @@ namespace Chatcraft
                 else
                 {
                     var currentSession = new Session();
-                    currentSession.id = chatId;
-                    currentSession.username = username.Equals(string.Empty)?"UnnamedPlayer":username;
-                    currentSession.name = username;
-                    currentSession.pageId = "MainPage";
+                    currentSession.Id = chatId;
+                    currentSession.Username = username.Equals(string.Empty)?"UnnamedPlayer":username;
+                    currentSession.Name = username;
+                    currentSession.PageId = "MainPage";
                     sessions.Add(currentSession);
                     return currentSession;
                 }
@@ -55,7 +55,7 @@ namespace Chatcraft
 
         public void SerializeSession(Session session)
         {
-            Helper.WriteToJsonFile(dir + "\\chars\\" + session.id + ".json", session);
+            Helper.WriteToJsonFile(dir + "\\chars\\" + session.Id + ".json", session);
         }
 
         public Session DeserializeSession(string sessionId)
@@ -65,9 +65,9 @@ namespace Chatcraft
 
         public Session GetSessionByName(string name, Session session)
         {
-            if (sessions.FirstOrDefault(s => s.name == name) != null)
+            if (sessions.FirstOrDefault(s => s.Name == name) != null)
             {
-                return sessions.FirstOrDefault(s => s.name == name);
+                return sessions.FirstOrDefault(s => s.Name == name);
             }
 
             else return session;
@@ -85,7 +85,7 @@ namespace Chatcraft
 
         public void RegenNotInQuest()
         {
-            foreach (var session in sessions.FindAll(s=>s.inQuest==false))
+            foreach (var session in sessions.FindAll(s=>s.InQuest==false))
             {
                 session.Heal(10);
                 session.Mana(10);
@@ -96,8 +96,8 @@ namespace Chatcraft
         {
 
 
-            player1.inQuest = true;
-            player2.inQuest = true;
+            player1.InQuest = true;
+            player2.InQuest = true;
             Stopwatch s = new Stopwatch();
             s.Start();
             int i = 0;

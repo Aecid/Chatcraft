@@ -16,8 +16,16 @@ using Telegram.Bot.Types.ReplyMarkups;
 
 namespace Chatcraft.Messages
 {
+    /// <summary>
+    /// мессенджер
+    /// </summary>
     class Messenger
     {
+        /// <summary>
+        /// Послать фото
+        /// </summary>
+        /// <param name="message">сообщение</param>
+        /// <param name="photo">фото</param>
         public static async void SendPhoto(Message message, string photo)
         {
             await BotClient.Instance.SendChatActionAsync(message.Chat.Id, ChatAction.UploadPhoto);
@@ -29,7 +37,6 @@ namespace Chatcraft.Messages
             using (var fileStream = new FileStream(file, FileMode.Open, FileAccess.Read, FileShare.Read))
             {
                 var fts = new FileToSend(fileName, fileStream);
-
                 await BotClient.Instance.SendPhotoAsync(message.Chat.Id, fts, "Hi there, " + message.Chat.FirstName + " [" + message.Chat.Username + "] " + message.Chat.LastName + "!");
             }
         }

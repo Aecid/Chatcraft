@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace Chatcraft.Mobs
 {
+    /// <summary>
+    /// Описание мобов
+    /// </summary>
     public static class Mobs
     {
+        /// <summary>
+        /// Список мобов
+        /// </summary>
         public static List<Mob> MobList = new List<Mob>()
             {
 
@@ -15,20 +21,33 @@ namespace Chatcraft.Mobs
             new Mob(2, 3, "Тролль", "огромная наглая, грызущая камни, тварь", 5, 2, 10, new Dictionary<int, int> { { 230, 20 }, { 1, 99 } }, "troll.jpg" )
 
         };
-
+        
+        /// <summary>
+        /// Вернуть объект моба по id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public static Mob GetMobById(int id)
         {
-            return MobList.FirstOrDefault(m => m.id == id);
+            return MobList.FirstOrDefault(m => m.Id == id);
         }
-
+        /// <summary>
+        /// Вернуть моба по имени
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
         public static Mob GetMobByName(string name)
         {
-            return MobList.FirstOrDefault(m => m.name.Equals(name));
+            return MobList.FirstOrDefault(m => m.Name.Equals(name));
         }
-
+        /// <summary>
+        /// Вернуть случайного моба заданного уровня (или ниже)
+        /// </summary>
+        /// <param name="level"></param>
+        /// <returns></returns>
         public static Mob GetRandomMobByLevel(int level)
         {
-            return MobList.FindAll(i => i.level <= level).OrderBy(i => Guid.NewGuid()).FirstOrDefault();
+            return MobList.FindAll(i => i.Level <= level).OrderBy(i => Guid.NewGuid()).FirstOrDefault();
         }
     }
 }

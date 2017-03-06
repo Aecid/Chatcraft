@@ -21,12 +21,12 @@ namespace Chatcraft
         
         public static Achievement GetAchByStatName(string stat)
         {
-            return AchList.FirstOrDefault(a => a.stat.Equals(stat));
+            return AchList.FirstOrDefault(a => a.Stat.Equals(stat));
         }
 
         public static Achievement GetAchById(int id)
         {
-            return AchList.FirstOrDefault(a => a.id == id);
+            return AchList.FirstOrDefault(a => a.Id == id);
         }
     }
 }
