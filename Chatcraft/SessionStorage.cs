@@ -12,16 +12,16 @@ namespace Chatcraft
 {
     public class SessionStorage
     {
-        private List<Session> sessions;
+        private List<Player> sessions;
         string dir;
 
         public SessionStorage()
         {
-            sessions = new List<Session>();
+            sessions = new List<Player>();
             dir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
         }
 
-        public Session GetSession(long chatId, string username = "")
+        public Player GetSession(long chatId, string username = "")
         {
             if (sessions.Exists(s => s.Id == chatId))
             {
@@ -37,7 +37,7 @@ namespace Chatcraft
                 }
                 else
                 {
-                    var currentSession = new Session();
+                    var currentSession = new Player();
                     currentSession.Id = chatId;
                     currentSession.Username = username.Equals(string.Empty)?"UnnamedPlayer":username;
                     currentSession.Name = username;
@@ -48,22 +48,22 @@ namespace Chatcraft
             }
         }
 
-        public List<Session> GetSessions()
+        public List<Player> GetSessions()
         {
             return sessions;
         }
 
-        public void SerializeSession(Session session)
+        public void SerializeSession(Player session)
         {
             Helper.WriteToJsonFile(dir + "\\chars\\" + session.Id + ".json", session);
         }
 
-        public Session DeserializeSession(string sessionId)
+        public Player DeserializeSession(string sessionId)
         {
-            return Helper.ReadFromJsonFile<Session>(dir + "\\chars\\" + sessionId + ".json");
+            return Helper.ReadFromJsonFile<Player>(dir + "\\chars\\" + sessionId + ".json");
         }
 
-        public Session GetSessionByName(string name, Session session)
+        public Player GetSessionByName(string name, Player session)
         {
             if (sessions.FirstOrDefault(s => s.Name == name) != null)
             {
@@ -92,7 +92,7 @@ namespace Chatcraft
             }
         }
 
-        public async void StartCombat(Session player1, Session player2)
+        public async void StartCombat(Player player1, Player player2)
         {
 
 

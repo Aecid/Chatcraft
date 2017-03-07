@@ -9,7 +9,7 @@ namespace Chatcraft.Pages
 {
     public static class MobEncounter
     {
-        public static bool Start(Session session, Mob mob)
+        public static bool Start(Player session, Mob mob)
         {
             Stopwatch s = new Stopwatch();
             Task photo = null;
@@ -61,7 +61,7 @@ namespace Chatcraft.Pages
                     {
                         if (Helper.rnd.Next(0, 100) < item.Value)
                         {
-                            session.items.Add(item.Key);
+                            session.Items.Add(item.Key);
                             encounter += "\n"+Items.GetItemName(item.Key);
                         }
                     }

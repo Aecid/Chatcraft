@@ -64,7 +64,7 @@ namespace Chatcraft
 
         private static async void BotOnMessageReceived(object sender, MessageEventArgs messageEventArgs)
         {
-            Session currentSession;
+            Player currentSession;
 
             var message = messageEventArgs.Message;
             if (message == null || message.Type != MessageType.TextMessage || message.Date.AddHours(2) < BotStartTime) return;
@@ -108,14 +108,14 @@ namespace Chatcraft
 
             if (message.Text.StartsWith("♂ Мужской"))
             {
-                currentSession.gender = true;
+                currentSession.Gender = true;
                 await currentSession.SendMessage("Приветствую, сэр " + currentSession.Name, MainPage.GetKeyboard());
                 currentSession.Persist();
             }
 
             if (message.Text.StartsWith("♀ Женский"))
             {
-                currentSession.gender = false;
+                currentSession.Gender = false;
                 await currentSession.SendMessage("Приветствую, леди " + currentSession.Name, MainPage.GetKeyboard());
                 currentSession.Persist();
             }
@@ -260,8 +260,8 @@ namespace Chatcraft
 
             if (message.Text.StartsWith("/levelUp"))
             {
-                if (currentSession.attributePoints != 0)
-                    await currentSession.SendMessage("У вас [" + currentSession.attributePoints + "] свободных очков характеристик.\nКакую характеристику вы хотите улучшить?", Helper.GetKeyboard(new string[][] { new string[] { "+1 💪Сила", "+1 🎯Ловкость" }, new string[] { "+1 🚜Выносливость" }, new string[] { "Назад" } }));
+                if (currentSession.AttributePoints != 0)
+                    await currentSession.SendMessage("У вас [" + currentSession.AttributePoints + "] свободных очков характеристик.\nКакую характеристику вы хотите улучшить?", Helper.GetKeyboard(new string[][] { new string[] { "+1 💪Сила", "+1 🎯Ловкость" }, new string[] { "+1 🚜Выносливость" }, new string[] { "Назад" } }));
             }
 
             if (message.Text.StartsWith("+1"))
@@ -311,7 +311,7 @@ namespace Chatcraft
 
         private static async void BotOnCallbackQueryReceived(object sender, CallbackQueryEventArgs callbackQueryEventArgs)
         {
-            Session currentSession;
+            Player currentSession;
 
             var callbackQueryData = callbackQueryEventArgs;
             if (callbackQueryData == null || callbackQueryData.CallbackQuery.Message.Type != MessageType.TextMessage) return;

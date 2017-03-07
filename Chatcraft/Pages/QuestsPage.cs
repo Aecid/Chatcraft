@@ -41,7 +41,7 @@ namespace Chatcraft
             MagicPlace
         }
 
-        public static async void ForestQuest(Session session)
+        public static async void ForestQuest(Player session)
         {
         List<string> StartingMessages = System.IO.File.ReadAllLines(pathToTextData + "ForestStart.txt").ToList();
         List<string> EndingMessages = System.IO.File.ReadAllLines(pathToTextData + "ForestEnd.txt").ToList();
@@ -89,7 +89,7 @@ namespace Chatcraft
             s.Stop();
         }
 
-        public static async void CaveQuest(Session session)
+        public static async void CaveQuest(Player session)
         {
          List<string> StartingMessages = System.IO.File.ReadAllLines(pathToTextData + "CaveStart.txt").ToList();
          List<string> EndingMessages = System.IO.File.ReadAllLines(pathToTextData + "CaveEnd.txt").ToList();
@@ -142,7 +142,7 @@ namespace Chatcraft
             s.Stop();
         }
 
-        public static async void FailCurrentQuest(Session session)
+        public static async void FailCurrentQuest(Player session)
         {
             if (session.InQuest)
             {

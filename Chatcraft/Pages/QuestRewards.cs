@@ -14,7 +14,7 @@ namespace Chatcraft
         public List<int> items { get; set; }
         public string rewardMessage;
 
-        public QuestRewards(questType quest, Session session)
+        public QuestRewards(questType quest, Player session)
         {
             Random rnd = new Random();
             items = new List<int>();

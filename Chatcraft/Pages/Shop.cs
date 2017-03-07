@@ -8,7 +8,7 @@ namespace Chatcraft
 {
     public static class Shop
     {
-        public static void BuyItems(Session session)
+        public static void BuyItems(Player session)
         {
             string itemList = "";
             foreach (var item in Items.ItemsList.FindAll(i => i.CanBeBought == true))
@@ -19,7 +19,7 @@ namespace Chatcraft
             session.SendMessage(itemList);
         }
 
-        public static void BuyItems(Session session, string slot)
+        public static void BuyItems(Player session, string slot)
         {
             string itemList = "";
             foreach (var item in Items.ItemsList.FindAll(i => i.Slot == slot && i.CanBeBought == true))
@@ -30,10 +30,10 @@ namespace Chatcraft
             session.SendMessage(itemList);
         }
 
-        public static void SellItems(Session session)
+        public static void SellItems(Player session)
         {
             string itemList = "";
-            foreach (var itemId in session.items)
+            foreach (var itemId in session.Items)
             {
                 var item = Items.GetItemById(itemId);
                 itemList += "\n" + item.Name + " " + item.Price/3 + "💰" + " /sell_" + item.Id;
