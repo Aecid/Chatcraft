@@ -6,21 +6,39 @@ using System.Threading.Tasks;
 
 namespace Chatcraft
 {
+    /// <summary>
+    /// Достижения
+    /// </summary>
     public class Achievement
     {
-        public int id;
-        public string stat;
-        public long count;
-        public string name;
-        public string description;
+        /// <summary>
+        /// Id
+        /// </summary>
+        public int Id { get; private set; }
+        /// <summary>
+        /// Статистика
+        /// </summary>
+        public string Stat { get; private set; }
+        /// <summary>
+        /// Количество
+        /// </summary>
+        public long Count { get; private set; }
+        /// <summary>
+        /// Наименование достижения
+        /// </summary>
+        public string Name { get; private set; }
+        /// <summary>
+        /// Описание достижения
+        /// </summary>
+        public string Description { get; private set; }
 
-        public Achievement(int _id, string _stat, long _count, string _name, string _desc)
+        public Achievement(int id, string stat, long count, string name, string desc)
         {
-            id = _id;
-            stat = _stat;
-            count = _count;
-            name = _name;
-            description = _desc;
+            Id = id;
+            Stat = stat;
+            Count = count;
+            Name = name;
+            Description = desc;
         }
     }
 }

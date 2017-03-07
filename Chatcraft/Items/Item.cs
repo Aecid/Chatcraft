@@ -6,23 +6,74 @@ using System.Threading.Tasks;
 
 namespace Chatcraft
 {
+    /// <summary>
+    /// Предмет
+    /// </summary>
     public class Item
     {
-        public int id { get; set; }
-        public string name { get; set; }
-        public int price { get; set; }
-        public int lvlReq { get; set; }
-        public int atk { get; set; }
-        public int def { get; set; }
-        public int mod_str { get; set; }
-        public int mod_int { get; set; }
-        public int mod_dex { get; set; }
-        public int mod_con { get; set; }
-        public int mod_cha { get; set; }
-        public int mod_luck { get; set; }
-        public bool isEquipment { get; set; }
-        public string slot { get; set;}
-        public bool canBeBought { get; set; }
-        public bool canBeLooted { get; set; }
+        /// <summary>
+        /// Id предмета
+        /// </summary>
+        public int Id { get; set; }
+        /// <summary>
+        /// Имя предмета
+        /// </summary>
+        public string Name { get; set; }
+        /// <summary>
+        /// Цена
+        /// </summary>
+        public int Price { get; set; }
+        /// <summary>
+        /// Необходимый уровень вещи
+        /// </summary>
+        public int LvlReq { get; set; }
+        /// <summary>
+        /// Сила атаки
+        /// </summary>
+        public int Atk { get; set; }
+        /// <summary>
+        /// Защита
+        /// </summary>
+        public int Def { get; set; }
+        /// <summary>
+        /// ??
+        /// </summary>
+        public int ModStr { get; set; }
+        /// <summary>
+        /// ??
+        /// </summary>
+        public int ModInt { get; set; }
+        /// <summary>
+        /// ??
+        /// </summary>
+        public int ModDex { get; set; }
+        /// <summary>
+        /// ??
+        /// </summary>
+        public int ModCon { get; set; }
+        /// <summary>
+        /// ??
+        /// </summary>
+        public int ModCha { get; set; }
+        /// <summary>
+        /// Удача
+        /// </summary>
+        public int ModLuck { get; set; }
+        /// <summary>
+        /// Находится ли вещь в снаряжении?
+        /// </summary>
+        public bool IsEquipment { get; set; }
+        /// <summary>
+        /// ?? (Слот)?
+        /// </summary>
+        public string Slot { get; set;}
+        /// <summary>
+        /// Может ли быть куплена 
+        /// </summary>
+        public bool CanBeBought { get; set; }
+        /// <summary>
+        /// Может ли выпасть из моба?
+        /// </summary>
+        public bool CanBeLooted { get; set; }
     }
 }

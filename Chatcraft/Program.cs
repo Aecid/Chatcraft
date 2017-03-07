@@ -64,7 +64,7 @@ namespace Chatcraft
 
         private static async void BotOnMessageReceived(object sender, MessageEventArgs messageEventArgs)
         {
-            Session currentSession;
+            Player currentSession;
 
             var message = messageEventArgs.Message;
             if (message == null || message.Type != MessageType.TextMessage || message.Date.AddHours(2) < BotStartTime) return;
@@ -89,40 +89,40 @@ namespace Chatcraft
 
             if (message.Text.StartsWith("/start"))
             {
-                if (currentSession.name == null)
+                if (currentSession.Name == null)
                 {
                     await currentSession.SendMessage("Как тебя зовут?");
                 }
                 else
                 {
-                    await currentSession.SendMessage("Привет, " + currentSession.name, MainPage.GetKeyboard());
+                    await currentSession.SendMessage("Привет, " + currentSession.Name, MainPage.GetKeyboard());
                 }
             }
 
-            if (!message.Text.StartsWith("/start") && currentSession.name == null)
+            if (!message.Text.StartsWith("/start") && currentSession.Name == null)
             {
-                currentSession.name = message.Text;
-                await currentSession.SendMessage("Ваш пол?" + currentSession.name, Helper.GetKeyboard(new string[] { "♂ Мужской", "♀ Женский" }));
+                currentSession.Name = message.Text;
+                await currentSession.SendMessage("Ваш пол?" + currentSession.Name, Helper.GetKeyboard(new string[] { "♂ Мужской", "♀ Женский" }));
                 currentSession.Persist();
             }
 
             if (message.Text.StartsWith("♂ Мужской"))
             {
-                currentSession.gender = true;
-                await currentSession.SendMessage("Приветствую, сэр " + currentSession.name, MainPage.GetKeyboard());
+                currentSession.Gender = true;
+                await currentSession.SendMessage("Приветствую, сэр " + currentSession.Name, MainPage.GetKeyboard());
                 currentSession.Persist();
             }
 
             if (message.Text.StartsWith("♀ Женский"))
             {
-                currentSession.gender = false;
-                await currentSession.SendMessage("Приветствую, леди " + currentSession.name, MainPage.GetKeyboard());
+                currentSession.Gender = false;
+                await currentSession.SendMessage("Приветствую, леди " + currentSession.Name, MainPage.GetKeyboard());
                 currentSession.Persist();
             }
 
             if (message.Text.StartsWith("Приключения"))
             {
-                if (!currentSession.inQuest)
+                if (!currentSession.InQuest)
                 {
                     currentSession.SendInlineMessage("Вы видите огромный столб, а на нём куча указателей.", QuestsPage.GetKeyboard());
                 }
@@ -137,7 +137,7 @@ namespace Chatcraft
                 currentSession.ShowBackpack();
             }
 
-            if (!currentSession.inQuest)
+            if (!currentSession.InQuest)
             {
                 if (message.Text.StartsWith("Магазин"))
                 {
@@ -260,8 +260,8 @@ namespace Chatcraft
 
             if (message.Text.StartsWith("/levelUp"))
             {
-                if (currentSession.attributePoints != 0)
-                    await currentSession.SendMessage("У вас [" + currentSession.attributePoints + "] свободных очков характеристик.\nКакую характеристику вы хотите улучшить?", Helper.GetKeyboard(new string[][] { new string[] { "+1 💪Сила", "+1 🎯Ловкость" }, new string[] { "+1 🚜Выносливость" }, new string[] { "Назад" } }));
+                if (currentSession.AttributePoints != 0)
+                    await currentSession.SendMessage("У вас [" + currentSession.AttributePoints + "] свободных очков характеристик.\nКакую характеристику вы хотите улучшить?", Helper.GetKeyboard(new string[][] { new string[] { "+1 💪Сила", "+1 🎯Ловкость" }, new string[] { "+1 🚜Выносливость" }, new string[] { "Назад" } }));
             }
 
             if (message.Text.StartsWith("+1"))
@@ -311,7 +311,7 @@ namespace Chatcraft
 
         private static async void BotOnCallbackQueryReceived(object sender, CallbackQueryEventArgs callbackQueryEventArgs)
         {
-            Session currentSession;
+            Player currentSession;
 
             var callbackQueryData = callbackQueryEventArgs;
             if (callbackQueryData == null || callbackQueryData.CallbackQuery.Message.Type != MessageType.TextMessage) return;
@@ -332,13 +332,13 @@ namespace Chatcraft
                 username = callbackQueryEventArgs.CallbackQuery.From.Username == null ? "UnnamedPlayer" : callbackQueryEventArgs.CallbackQuery.From.Username;
                 currentSession = sessions.GetSession(callbackQueryEventArgs.CallbackQuery.From.Id, username);
 
-                if (currentSession.name == null)
+                if (currentSession.Name == null)
                 {
                     await currentSession.SendMessage("Как тебя зовут?");
                 }
                 else
                 {
-                    await currentSession.SendMessage("Привет, " + currentSession.name, MainPage.GetKeyboard());
+                    await currentSession.SendMessage("Привет, " + currentSession.Name, MainPage.GetKeyboard());
                 }
             }
             else

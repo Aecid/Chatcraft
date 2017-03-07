@@ -12,20 +12,20 @@ namespace Chatcraft
 {
     public class SessionStorage
     {
-        private List<Session> sessions;
+        private List<Player> sessions;
         string dir;
 
         public SessionStorage()
         {
-            sessions = new List<Session>();
+            sessions = new List<Player>();
             dir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
         }
 
-        public Session GetSession(long chatId, string username = "")
+        public Player GetSession(long chatId, string username = "")
         {
-            if (sessions.Exists(s => s.id == chatId))
+            if (sessions.Exists(s => s.Id == chatId))
             {
-                return sessions.FirstOrDefault(s => s.id == chatId);
+                return sessions.FirstOrDefault(s => s.Id == chatId);
             }
             else
             {
@@ -37,37 +37,37 @@ namespace Chatcraft
                 }
                 else
                 {
-                    var currentSession = new Session();
-                    currentSession.id = chatId;
-                    currentSession.username = username.Equals(string.Empty)?"UnnamedPlayer":username;
-                    currentSession.name = username;
-                    currentSession.pageId = "MainPage";
+                    var currentSession = new Player();
+                    currentSession.Id = chatId;
+                    currentSession.Username = username.Equals(string.Empty)?"UnnamedPlayer":username;
+                    currentSession.Name = username;
+                    currentSession.PageId = "MainPage";
                     sessions.Add(currentSession);
                     return currentSession;
                 }
             }
         }
 
-        public List<Session> GetSessions()
+        public List<Player> GetSessions()
         {
             return sessions;
         }
 
-        public void SerializeSession(Session session)
+        public void SerializeSession(Player session)
         {
-            Helper.WriteToJsonFile(dir + "\\chars\\" + session.id + ".json", session);
+            Helper.WriteToJsonFile(dir + "\\chars\\" + session.Id + ".json", session);
         }
 
-        public Session DeserializeSession(string sessionId)
+        public Player DeserializeSession(string sessionId)
         {
-            return Helper.ReadFromJsonFile<Session>(dir + "\\chars\\" + sessionId + ".json");
+            return Helper.ReadFromJsonFile<Player>(dir + "\\chars\\" + sessionId + ".json");
         }
 
-        public Session GetSessionByName(string name, Session session)
+        public Player GetSessionByName(string name, Player session)
         {
-            if (sessions.FirstOrDefault(s => s.name == name) != null)
+            if (sessions.FirstOrDefault(s => s.Name == name) != null)
             {
-                return sessions.FirstOrDefault(s => s.name == name);
+                return sessions.FirstOrDefault(s => s.Name == name);
             }
 
             else return session;
@@ -85,19 +85,19 @@ namespace Chatcraft
 
         public void RegenNotInQuest()
         {
-            foreach (var session in sessions.FindAll(s=>s.inQuest==false))
+            foreach (var session in sessions.FindAll(s=>s.InQuest==false))
             {
                 session.Heal(10);
                 session.Mana(10);
             }
         }
 
-        public async void StartCombat(Session player1, Session player2)
+        public async void StartCombat(Player player1, Player player2)
         {
 
 
-            player1.inQuest = true;
-            player2.inQuest = true;
+            player1.InQuest = true;
+            player2.InQuest = true;
             Stopwatch s = new Stopwatch();
             s.Start();
             int i = 0;

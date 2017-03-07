@@ -41,13 +41,13 @@ namespace Chatcraft
             MagicPlace
         }
 
-        public static async void ForestQuest(Session session)
+        public static async void ForestQuest(Player session)
         {
         List<string> StartingMessages = System.IO.File.ReadAllLines(pathToTextData + "ForestStart.txt").ToList();
         List<string> EndingMessages = System.IO.File.ReadAllLines(pathToTextData + "ForestEnd.txt").ToList();
 
 
-        session.inQuest = true;
+        session.InQuest = true;
             bool encounterTriggered = false;
             bool isQuestCompleted = true;
             Stopwatch s = new Stopwatch();
@@ -81,7 +81,7 @@ namespace Chatcraft
             session.AddGold(reward.gold);
             session.AddExp(reward.exp);
             session.AddItem(reward.items);
-            session.inQuest = false;
+            session.InQuest = false;
             session.Persist();
             await session.SendMessage(Helper.GetRandomLine(EndingMessages)+"\n\n" + "Вы успешно прошли квест в Тёмном Лесу!\n" + reward.rewardMessage, MainPage.GetKeyboard());
             }
@@ -89,13 +89,13 @@ namespace Chatcraft
             s.Stop();
         }
 
-        public static async void CaveQuest(Session session)
+        public static async void CaveQuest(Player session)
         {
          List<string> StartingMessages = System.IO.File.ReadAllLines(pathToTextData + "CaveStart.txt").ToList();
          List<string> EndingMessages = System.IO.File.ReadAllLines(pathToTextData + "CaveEnd.txt").ToList();
 
 
-        session.inQuest = true;
+        session.InQuest = true;
             bool isQuestCompleted = true;
             Stopwatch s = new Stopwatch();
             s.Start();
@@ -134,7 +134,7 @@ namespace Chatcraft
                 session.AddGold(reward.gold);
                 session.AddExp(reward.exp);
                 session.AddItem(reward.items);
-                session.inQuest = false;
+                session.InQuest = false;
                 session.Persist();
                 await session.SendMessage(Helper.GetRandomLine(EndingMessages) + "\n\n" + "Вы успешно прошли квест в Пещере!\n" + reward.rewardMessage, MainPage.GetKeyboard());
             }
@@ -142,11 +142,11 @@ namespace Chatcraft
             s.Stop();
         }
 
-        public static async void FailCurrentQuest(Session session)
+        public static async void FailCurrentQuest(Player session)
         {
-            if (session.inQuest)
+            if (session.InQuest)
             {
-                session.inQuest = false;
+                session.InQuest = false;
                 session.AddStatsCounter("Заданий провалено");
                 session.AddExp(1);
                 await session.SendMessage("Задание провалено. Вы получили 1 опыта за старания");
