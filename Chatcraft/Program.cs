@@ -28,7 +28,7 @@ namespace Chatcraft
         static void Main(string[] args)
         {
             admins = new List<long>();
-            admins.Add(186070199);
+            
 
             Bot.OnCallbackQuery += BotOnCallbackQueryReceived;
             Bot.OnMessage += BotOnMessageReceived;
@@ -67,7 +67,7 @@ namespace Chatcraft
             Player currentSession;
 
             var message = messageEventArgs.Message;
-            if (message == null || message.Type != MessageType.TextMessage || message.Date.AddHours(2) < BotStartTime) return;
+            if (message == null || message.Type != MessageType.TextMessage ) return;
             string username;
             username = message.Chat.Username == null ? "UnnamedPlayer" : message.Chat.Username;
             currentSession = sessions.GetSession(message.Chat.Id, username);

@@ -7,14 +7,23 @@ using System.Threading.Tasks;
 
 namespace Chatcraft.Pages
 {
+    /// <summary>
+    /// Создатель мобов
+    /// </summary>
     public static class MobEncounter
     {
+        /// <summary>
+        /// Создать моба и начасть сражение с игроком
+        /// </summary>
+        /// <param name="session"></param>
+        /// <param name="mob"></param>
+        /// <returns></returns>
         public static bool Start(Player session, Mob mob)
         {
             Stopwatch s = new Stopwatch();
             Task photo = null;
             s.Start();
-            string encounter = "";
+            StringBuilder encounter = new StringBuilder();
             string mobName = "\nВам повстречался " + mob.Name + "!";
             if (!mob.Pic.Equals(string.Empty))
             {
@@ -22,36 +31,36 @@ namespace Chatcraft.Pages
             }
             else
             {
-                encounter += mobName;
+                encounter.Append(mobName);
             }
-            encounter += "\nВы немедленно ввязались в драку";
+            encounter.Append("\nВы немедленно ввязались в драку");
             var mobHP = mob.HP;
             var charHP = session.GetHP();
             bool outcome = true;
             while ( mobHP > 0 && charHP > 0 )
             {
-                int mobDmg = mob.Atk + Helper.rnd.Next(0, 2);
+                int mobDmg = mob.Atk + Helper.Rnd.Next(0, 2);
                 mobDmg = mobDmg <= session.GetDefense() ? 1 : mobDmg - session.GetDefense();
-                encounter += "\n" + mob.Name + " ударил вас на ⚔" + mobDmg + " урона";
+                encounter.Append($"\n{mob.Name} ударил вас на ⚔{mobDmg} урона");
                 charHP -= mobDmg;
-                encounter += " (❤️" + charHP + ")";
+                encounter.Append($" (❤️{charHP})");
                 if (charHP > 0) {
                     int charAtk = session.GetAttack();
                     charAtk -= mob.Def;
-                encounter += "\nВы ударили [" + mob.Name + "] на ⚔" + charAtk + " урона.";
+                encounter.Append($"\nВы ударили [{mob.Name}] на ⚔{charAtk} урона.");
                 mobHP -= charAtk;
                 }
                 if (mobHP <= 0)
                 { 
-                    session.AddStatsCounter("Убито врагов \""+mob.Name+"\"");
-                    var gotGold = mob.Level + Helper.rnd.Next(0, 2);
-                    encounter += "\nВы победили! " + mob.Name + " повержен!";
-                    encounter += "\nВы нашли:";
-                    encounter += "\nЗолото: 💰" + gotGold;
+                    session.AddStatsCounter($"Убито врагов \"{mob.Name}\"");
+                    var gotGold = mob.Level + Helper.Rnd.Next(0, 2);
+                    encounter.Append($"\nВы победили! {mob.Name} повержен!");
+                    encounter.Append("\nВы нашли:");
+                    encounter.Append($"\nЗолото: 💰{gotGold}");
                     if (mob.Level >= session.GetLevel())
                     {
                         int exp = mob.Level >= session.Level ? mob.Level : (mob.Level + session.Level)*2;
-                        encounter += "\nОпыт: 🔥" + exp;
+                        encounter.Append($"\nОпыт: 🔥{exp}");
                         session.AddExp(exp);
                     }
                     session.AddGold(gotGold);
@@ -59,10 +68,10 @@ namespace Chatcraft.Pages
 
                     foreach (var item in mob.LootTable)
                     {
-                        if (Helper.rnd.Next(0, 100) < item.Value)
+                        if (Helper.Rnd.Next(0, 100) < item.Value)
                         {
                             session.Items.Add(item.Key);
-                            encounter += "\n"+Items.GetItemName(item.Key);
+                            encounter.Append($"\n{Items.GetItemName(item.Key)}");
                         }
                     }
 
@@ -72,7 +81,7 @@ namespace Chatcraft.Pages
                 }
                 if (charHP <= 0)
                 {
-                    encounter += "\n" + mob.Name + " убил вас и поглумился над вашим трупом";
+                    encounter.Append($"\n{mob.Name} убил вас и поглумился над вашим трупом");
                     session.DealDamage(session.GetMaxHP());
                     outcome = false;
                     break;
@@ -80,13 +89,13 @@ namespace Chatcraft.Pages
 
             }
  
-            if (photo != null) photo.ContinueWith(async (t) =>  { await session.SendMessage(encounter).ContinueWith(
+            if (photo != null) photo.ContinueWith(async (t) =>  { await session.SendMessage(encounter.ToString()).ContinueWith(
                 (d) =>
                 {
                     if (!outcome) QuestsPage.FailCurrentQuest(session);
                 }
                 ); });
-            else session.SendMessage(encounter).ContinueWith(
+            else session.SendMessage(encounter.ToString()).ContinueWith(
                 (d) =>
                 {
                     if (!outcome) QuestsPage.FailCurrentQuest(session);

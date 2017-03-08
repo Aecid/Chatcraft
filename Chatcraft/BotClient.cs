@@ -18,7 +18,7 @@ namespace Chatcraft
         public sealed class BotClient : TelegramBotClient
         {
             private static readonly Lazy<BotClient> lazy =
-                new Lazy<BotClient>(() => new BotClient("API_TOCKEN"));
+                new Lazy<BotClient>(() => new BotClient("TOKEN"));
 
             public static BotClient Instance { get { return lazy.Value; } }
 

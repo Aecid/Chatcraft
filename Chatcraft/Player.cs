@@ -150,7 +150,7 @@ namespace Chatcraft
         /// <returns></returns>
         public long GetMaxMP()
         {
-            var char_maxMP = GetInt() * 10;
+            var char_maxMP = GetIntellect() * 10;
             Mp = Mp > char_maxMP ? char_maxMP : Mp;
             return char_maxMP;
         }
@@ -167,8 +167,11 @@ namespace Chatcraft
             }
             return str;
         }
-
-        public int GetInt()
+        /// <summary>
+        /// Узнать интеллект героя
+        /// </summary>
+        /// <returns></returns>
+        public int GetIntellect()
         {
             var inta = Intellect;
             foreach (var equip in Equipment)
@@ -197,8 +200,11 @@ namespace Chatcraft
             }
             return dex;
         }
-
-        public int GetCha()
+        /// <summary>
+        /// Узнать уровень харизмы
+        /// </summary>
+        /// <returns></returns>
+        public int GetCharisma()
         {
             var cha = Charisma;
             foreach (var equip in Equipment)
@@ -207,7 +213,10 @@ namespace Chatcraft
             }
             return cha;
         }
-
+        /// <summary>
+        /// Узнать уровень удачи героя
+        /// </summary>
+        /// <returns></returns>
         public int GetLuck()
         {
             var _luck = Luck;
@@ -286,7 +295,7 @@ namespace Chatcraft
                 { "Ловкость", GetDex().ToString()},
                 //{ "Интеллект", GetInt().ToString()},
                 { "Выносливость", GetConst().ToString()},
-                { "Харизма", GetCha().ToString() },
+                { "Харизма", GetCharisma().ToString() },
                 { "Удача", GetLuck().ToString() }
             };
 
@@ -296,7 +305,7 @@ namespace Chatcraft
                 { "Ловкость", GetDex().ToString()},
                 //{ "Интеллект", GetInt().ToString()},
                 { "Выносливость", GetConst().ToString()},
-                { "Харизма", GetCha().ToString() },
+                { "Харизма", GetCharisma().ToString() },
                 { "Удача", GetLuck().ToString() }
             };
 
@@ -447,7 +456,7 @@ namespace Chatcraft
 🎭Харизма: {14}
 🎲Удача: {15}
 {19}<b>----------------------------</b>
-🎩<b>Экипировка:</b>{17}", "", GetTitle(), Name, GetHP(), GetMaxHP(), GetMP(), GetMaxMP(), GetLevel(), GetExp(), Gold, GetStrength(), GetDex(), GetInt(), GetConst(), GetCha(), GetLuck(), itemList, equipList, GetExpTNL(), levelUp, GetAttackString(), GetDefenseString(), Items.Count());
+🎩<b>Экипировка:</b>{17}", "", GetTitle(), Name, GetHP(), GetMaxHP(), GetMP(), GetMaxMP(), GetLevel(), GetExp(), Gold, GetStrength(), GetDex(), GetIntellect(), GetConst(), GetCharisma(), GetLuck(), itemList, equipList, GetExpTNL(), levelUp, GetAttackString(), GetDefenseString(), Items.Count());
         }
 
         internal async void SetName(string desiredName)
@@ -464,7 +473,9 @@ namespace Chatcraft
                 await SendMessage("Имя должно быть от 3 до 32 символов в длину и не содержать специальных символов.");
             }
         }
-
+        /// <summary>
+        /// Показать доступные опции персонажа
+        /// </summary>
         internal async void ShowOptions()
         {
             string optionsMessage = @"Доступные опции:
@@ -472,12 +483,20 @@ namespace Chatcraft
 Смена пола /gender";
             await SendMessage(optionsMessage);
         }
-
+        /// <summary>
+        /// Сохранить данные
+        /// </summary>
         public void Persist()
         {
             Helper.WriteToJsonFile(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\chars\\" + Id + ".json", this);
         }
 
+        /// <summary>
+        /// Послать фото
+        /// </summary>
+        /// <param name="photo"></param>
+        /// <param name="message"></param>
+        /// <returns></returns>
         public async Task SendPhoto(string photo, string message)
         {
             await BotClient.Instance.SendChatActionAsync(Id, ChatAction.UploadPhoto);
@@ -561,12 +580,12 @@ namespace Chatcraft
 
             if (photo == null && keyboard != null)
             {
-                SendInlineKeyboard(keyboard, message);
+                await SendInlineKeyboard(keyboard, message);
             }
 
             if (photo != null && keyboard == null)
             {
-                SendPhoto(photo, message);
+                await SendPhoto(photo, message);
             }
 
             if (photo == null && keyboard == null)
@@ -579,7 +598,10 @@ namespace Chatcraft
         {
             PageId = _pageId;
         }
-
+        /// <summary>
+        /// начать квест
+        /// </summary>
+        /// <param name="quest"></param>
         public void StartQuest(string quest)
         {
             if (!InQuest)

@@ -52,7 +52,10 @@ namespace Chatcraft
         {
             return sessions;
         }
-
+        /// <summary>
+        /// Сериализация сессии игрока ( отдельный файл для каждого игрока)
+        /// </summary>
+        /// <param name="session"></param>
         public void SerializeSession(Player session)
         {
             Helper.WriteToJsonFile(dir + "\\chars\\" + session.Id + ".json", session);

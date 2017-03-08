@@ -55,7 +55,7 @@ namespace Chatcraft
             int i = 0;
             int questTime = 5;
             int tickTime = 1;
-            int encounterTick = Helper.rnd.Next(1, questTime);
+            int encounterTick = Helper.Rnd.Next(1, questTime);
 
             await session.SendMessage(Helper.GetRandomLine(StartingMessages).Replace("\\n", "\n"));
             while (s.Elapsed < TimeSpan.FromMinutes(questTime))
@@ -88,7 +88,10 @@ namespace Chatcraft
 
             s.Stop();
         }
-
+        /// <summary>
+        /// Квест "Пещера"
+        /// </summary>
+        /// <param name="session"></param>
         public static async void CaveQuest(Player session)
         {
          List<string> StartingMessages = System.IO.File.ReadAllLines(pathToTextData + "CaveStart.txt").ToList();
@@ -97,16 +100,16 @@ namespace Chatcraft
 
         session.InQuest = true;
             bool isQuestCompleted = true;
-            Stopwatch s = new Stopwatch();
-            s.Start();
+            Stopwatch s = Stopwatch.StartNew();
+            
             int i = 0;
             int questTime = 10;
             int tickTime = 1;
-            int encounterTick = Helper.rnd.Next(1, questTime);
-            int encounterTick2 = Helper.rnd.Next(1, questTime);
+            int encounterTick = Helper.Rnd.Next(1, questTime);
+            int encounterTick2 = Helper.Rnd.Next(1, questTime);
             while (encounterTick2 == encounterTick)
             {
-                encounterTick2 = Helper.rnd.Next(1, questTime - 1);
+                encounterTick2 = Helper.Rnd.Next(1, questTime - 1);
             }
 
             await session.SendMessage(Helper.GetRandomLine(StartingMessages));
