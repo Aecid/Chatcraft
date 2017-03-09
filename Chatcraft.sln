@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chatcraft", "Chatcraft\Chatcraft.csproj", "{A6173617-B950-47C7-A759-6530837EFD3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chatcraft.Core", "Chatcraft\Chatcraft.Core.csproj", "{A6173617-B950-47C7-A759-6530837EFD3B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatcraftTest", "ChatcraftTest\ChatcraftTest.csproj", "{63137671-FCB7-4CEB-BA26-2A52F2692377}"
 EndProject

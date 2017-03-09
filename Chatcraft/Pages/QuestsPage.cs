@@ -74,7 +74,7 @@ namespace Chatcraft
                 }
             }
             
-            if (isQuestCompleted) { 
+            if (isQuestCompleted) {
             var reward = new QuestRewards(questType.Forest, session);
             session.AddStatsCounter("Заданий пройдено");
             session.AddStatsCounter("Заданий в Лесу пройдено");

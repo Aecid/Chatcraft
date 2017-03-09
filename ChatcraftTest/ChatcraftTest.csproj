@@ -55,9 +55,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Chatcraft\Chatcraft.csproj">
+    <ProjectReference Include="..\Chatcraft\Chatcraft.Core.csproj">
       <Project>{a6173617-b950-47c7-a759-6530837efd3b}</Project>
-      <Name>Chatcraft</Name>
+      <Name>Chatcraft.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

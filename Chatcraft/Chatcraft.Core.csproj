@@ -96,9 +96,11 @@
     <None Include="chars\test.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <Content Include="img\BigTroll.png" />
     <Content Include="img\goblin.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="img\theBat.jpg" />
     <Content Include="img\troll.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

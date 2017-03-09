@@ -18,10 +18,14 @@ namespace Chatcraft.Mobs
             {
 
             new Mob(1, 1, "Гоблин", "маленькое зеленое существо с острыми когтями и хитрым взглядом", 2, 0, 3, new Dictionary<int, int> { { 110, 20 } }, "goblin.png" ),
-            new Mob(2, 3, "Тролль", "огромная наглая, грызущая камни, тварь", 5, 2, 10, new Dictionary<int, int> { { 230, 20 }, { 1, 99 } }, "troll.jpg" )
-
+            new Mob(2, 3, "Тролль", "огромная наглая, грызущая камни, тварь", 5, 2, 10, new Dictionary<int, int> { { 230, 20 }, { 1, 99 } }, "troll.jpg" ),
+            new Mob(3,3,"МыШ","маленькая надоедливая тварь. Кусает и пытается выколоть вам глаза",1,0,2,new Dictionary<int, int>{ { 230, 20 }, { 1, 99 } },"theBat.jpg")
         };
-        
+
+        public static List<Mob> BossList = new List<Mob>()
+        {
+            new Mob(100,10,"Огромный тролль","Огромное зеленое и тупое существо, желающее сожрать вас",5,10,100,new Dictionary<int, int>{ { 230, 20 }, { 1, 99 } },"BigTroll.png")
+        };
         /// <summary>
         /// Вернуть объект моба по id
         /// </summary>
