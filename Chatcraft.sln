@@ -5,9 +5,12 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chatcraft.Core", "Chatcraft\Chatcraft.Core.csproj", "{A6173617-B950-47C7-A759-6530837EFD3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatcraftTest", "ChatcraftTest\ChatcraftTest.csproj", "{63137671-FCB7-4CEB-BA26-2A52F2692377}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chatcraft.CoreTests", "ChatcraftTest\Chatcraft.CoreTests.csproj", "{63137671-FCB7-4CEB-BA26-2A52F2692377}"
 EndProject
 Global
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -25,6 +28,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
 	EndGlobalSection
 	GlobalSection(Performance) = preSolution
 		HasPerformanceSessions = true

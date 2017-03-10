@@ -12,6 +12,9 @@ namespace Chatcraft
     public static class Items
     {
         public static List<Item> _items;
+        /// <summary>
+        /// Список предметов
+        /// </summary>
         public static List<Item> ItemsList
         {
             get
@@ -35,7 +38,11 @@ namespace Chatcraft
                 }
             }
         }
-
+        /// <summary>
+        /// Получить предмет по id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public static Item GetItemById(int id)
         {
             if (Items.ItemsList.Any(i => i.Id == id))
@@ -44,7 +51,11 @@ namespace Chatcraft
             }
             else return Items.ItemsList[0];
         }
-
+        /// <summary>
+        /// Получить информацию о предмете
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public static string GetItemInfo(int id)
         {
             if (Items.ItemsList.Any(i => i.Id == id)) { 
@@ -61,22 +72,22 @@ namespace Chatcraft
             return itemInfo;
             } else { return "Предмет не найден в базе"; }
         }
-
+        
         public static string GetShortItemInfo(int id)
         {
             if (Items.ItemsList.Any(i => i.Id == id))
             {
                 Item item = GetItemById(id);
-                var itemInfo = "";
-                if (item.Atk != 0) itemInfo += "⚔" + item.Atk.ToString("+#;-#;0");
-                if (item.Def != 0) itemInfo += "🛡" + item.Def.ToString("+#;-#;0");
-                if (item.ModStr != 0) itemInfo += "💪" + item.ModStr.ToString("+#;-#;0");
-                if (item.ModDex != 0) itemInfo += "🎯" + item.ModDex.ToString("+#;-#;0");
-                if (item.ModInt != 0) itemInfo += "📖" + item.ModInt.ToString("+#;-#;0");
-                if (item.ModCon != 0) itemInfo += "🚜" + item.ModCon.ToString("+#;-#;0");
-                if (item.ModCha != 0) itemInfo += "🎭" + item.ModCha.ToString("+#;-#;0");
-                if (item.ModLuck != 0) itemInfo += "🎲" + item.ModLuck.ToString("+#;-#;0");
-                return itemInfo;
+                var itemInfo = new StringBuilder();
+                if (item.Atk != 0) itemInfo.Append($"⚔{item.Atk.ToString("+#;-#;0")}");
+                if (item.Def != 0) itemInfo.Append($"🛡{item.Def.ToString("+#;-#;0")}");
+                if (item.ModStr != 0) itemInfo.Append($"💪{item.ModStr.ToString("+#;-#;0")}");
+                if (item.ModDex != 0) itemInfo.Append($"🎯{item.ModDex.ToString("+#;-#;0")}");
+                if (item.ModInt != 0) itemInfo.Append($"📖{item.ModInt.ToString("+#;-#;0")}");
+                if (item.ModCon != 0) itemInfo.Append($"🚜{item.ModCon.ToString("+#;-#;0")}");
+                if (item.ModCha != 0) itemInfo.Append($"🎭{item.ModCha.ToString("+#;-#;0")}");
+                if (item.ModLuck != 0) itemInfo.Append($"🎲{item.ModLuck.ToString("+#;-#;0")}");
+                return itemInfo.ToString();
             }
             else { return "Предмет не найден в базе"; }
         }
