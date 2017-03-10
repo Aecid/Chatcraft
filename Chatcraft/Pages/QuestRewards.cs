@@ -14,7 +14,7 @@ namespace Chatcraft
         public List<int> items { get; set; }
         public string rewardMessage;
 
-        public QuestRewards(questType quest, Session session)
+        public QuestRewards(questType quest, Player session)
         {
             Random rnd = new Random();
             items = new List<int>();
@@ -23,22 +23,22 @@ namespace Chatcraft
             {
                 case questType.Forest:
                     gold = rnd.Next(1, 5);
-                    exp = session.level + rnd.Next(session.level, session.level*2+1);
+                    exp = session.Level + rnd.Next(session.Level, session.Level*2+1);
                     if (rnd.Next(1, 101) <= 10)
                     {
 
-                        var r = Items.ItemsList.FindAll(i => i.lvlReq <= session.level && i.canBeLooted == true).OrderBy(i => Guid.NewGuid()).FirstOrDefault();
-                        items.Add(r.id);
+                        var r = Items.ItemsList.FindAll(i => i.LvlReq <= session.Level && i.CanBeLooted == true).OrderBy(i => Guid.NewGuid()).FirstOrDefault();
+                        items.Add(r.Id);
                     }
                     break;
                 case questType.Cave:
                     gold = rnd.Next(5, 15);
-                    exp = session.level + rnd.Next(session.level*2, session.level * 3 + 1);
+                    exp = session.Level + rnd.Next(session.Level*2, session.Level * 3 + 1);
                     if (rnd.Next(1, 101) <= 10)
                     {
 
-                        var r = Items.ItemsList.FindAll(i => i.lvlReq <= session.level && i.canBeLooted == true).OrderBy(i => Guid.NewGuid()).FirstOrDefault();
-                        items.Add(r.id);
+                        var r = Items.ItemsList.FindAll(i => i.LvlReq <= session.Level && i.CanBeLooted == true).OrderBy(i => Guid.NewGuid()).FirstOrDefault();
+                        items.Add(r.Id);
                     }
                     break;
                 default:

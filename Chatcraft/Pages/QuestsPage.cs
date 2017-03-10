@@ -41,13 +41,13 @@ namespace Chatcraft
             MagicPlace
         }
 
-        public static async void ForestQuest(Session session)
+        public static async void ForestQuest(Player session)
         {
         List<string> StartingMessages = System.IO.File.ReadAllLines(pathToTextData + "ForestStart.txt").ToList();
         List<string> EndingMessages = System.IO.File.ReadAllLines(pathToTextData + "ForestEnd.txt").ToList();
 
 
-        session.inQuest = true;
+        session.InQuest = true;
             bool encounterTriggered = false;
             bool isQuestCompleted = true;
             Stopwatch s = new Stopwatch();
@@ -55,7 +55,7 @@ namespace Chatcraft
             int i = 0;
             int questTime = 5;
             int tickTime = 1;
-            int encounterTick = Helper.rnd.Next(1, questTime);
+            int encounterTick = Helper.Rnd.Next(1, questTime);
 
             await session.SendMessage(Helper.GetRandomLine(StartingMessages).Replace("\\n", "\n"));
             while (s.Elapsed < TimeSpan.FromMinutes(questTime))
@@ -74,39 +74,42 @@ namespace Chatcraft
                 }
             }
             
-            if (isQuestCompleted) { 
+            if (isQuestCompleted) {
             var reward = new QuestRewards(questType.Forest, session);
             session.AddStatsCounter("Заданий пройдено");
             session.AddStatsCounter("Заданий в Лесу пройдено");
             session.AddGold(reward.gold);
             session.AddExp(reward.exp);
             session.AddItem(reward.items);
-            session.inQuest = false;
+            session.InQuest = false;
             session.Persist();
             await session.SendMessage(Helper.GetRandomLine(EndingMessages)+"\n\n" + "Вы успешно прошли квест в Тёмном Лесу!\n" + reward.rewardMessage, MainPage.GetKeyboard());
             }
 
             s.Stop();
         }
-
-        public static async void CaveQuest(Session session)
+        /// <summary>
+        /// Квест "Пещера"
+        /// </summary>
+        /// <param name="session"></param>
+        public static async void CaveQuest(Player session)
         {
          List<string> StartingMessages = System.IO.File.ReadAllLines(pathToTextData + "CaveStart.txt").ToList();
          List<string> EndingMessages = System.IO.File.ReadAllLines(pathToTextData + "CaveEnd.txt").ToList();
 
 
-        session.inQuest = true;
+        session.InQuest = true;
             bool isQuestCompleted = true;
-            Stopwatch s = new Stopwatch();
-            s.Start();
+            Stopwatch s = Stopwatch.StartNew();
+            
             int i = 0;
             int questTime = 10;
             int tickTime = 1;
-            int encounterTick = Helper.rnd.Next(1, questTime);
-            int encounterTick2 = Helper.rnd.Next(1, questTime);
+            int encounterTick = Helper.Rnd.Next(1, questTime);
+            int encounterTick2 = Helper.Rnd.Next(1, questTime);
             while (encounterTick2 == encounterTick)
             {
-                encounterTick2 = Helper.rnd.Next(1, questTime - 1);
+                encounterTick2 = Helper.Rnd.Next(1, questTime - 1);
             }
 
             await session.SendMessage(Helper.GetRandomLine(StartingMessages));
@@ -134,7 +137,7 @@ namespace Chatcraft
                 session.AddGold(reward.gold);
                 session.AddExp(reward.exp);
                 session.AddItem(reward.items);
-                session.inQuest = false;
+                session.InQuest = false;
                 session.Persist();
                 await session.SendMessage(Helper.GetRandomLine(EndingMessages) + "\n\n" + "Вы успешно прошли квест в Пещере!\n" + reward.rewardMessage, MainPage.GetKeyboard());
             }
@@ -142,11 +145,11 @@ namespace Chatcraft
             s.Stop();
         }
 
-        public static async void FailCurrentQuest(Session session)
+        public static async void FailCurrentQuest(Player session)
         {
-            if (session.inQuest)
+            if (session.InQuest)
             {
-                session.inQuest = false;
+                session.InQuest = false;
                 session.AddStatsCounter("Заданий провалено");
                 session.AddExp(1);
                 await session.SendMessage("Задание провалено. Вы получили 1 опыта за старания");

@@ -21,7 +21,7 @@ namespace Chatcraft
 {
     static class Helper
     {
-        public static Random rnd = new Random();
+        public static Random Rnd = new Random();
         public static ReplyKeyboardMarkup GetKeyboard(string[] firstRow, string[] secondRow = null, bool back = false)
         {
             var firstRowKeys = new List<KeyboardButton>();
@@ -131,7 +131,7 @@ namespace Chatcraft
 
         public static string GetRandomLine(List<string> list)
         {
-            int r = rnd.Next(list.Count);
+            int r = Rnd.Next(list.Count);
             return list[r];
         }
 
@@ -230,7 +230,7 @@ namespace Chatcraft
 
                 for (int r = 1; r <= x; r++)
                 {
-                    result += (rnd.Next(1, y + 1));
+                    result += (Rnd.Next(1, y + 1));
                 }
             }
 
