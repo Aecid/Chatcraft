@@ -8,15 +8,19 @@ namespace Chatcraft
 {
     public static class Shop
     {
+        /// <summary>
+        /// Купить предметы
+        /// </summary>
+        /// <param name="session"></param>
         public static void BuyItems(Player session)
         {
-            string itemList = "";
+            var itemList = new StringBuilder();
             foreach (var item in Items.ItemsList.FindAll(i => i.CanBeBought == true))
             {
-                itemList += "\n<b>" + item.Name + "</b> " + " (💰" + item.Price + ")" + "\n" + Items.GetShortItemInfo(item.Id) + "\n/buy_"+item.Id + "\n";
+                itemList.Append($"\n<b>{item.Name}</b>  (💰{item.Price})\n{Items.GetShortItemInfo(item.Id)}\n/buy_{item.Id}\n");
             }
 
-            session.SendMessage(itemList);
+            session.SendMessage(itemList.ToString());
         }
 
         public static void BuyItems(Player session, string slot)

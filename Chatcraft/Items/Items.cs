@@ -9,8 +9,22 @@ using System.Threading.Tasks;
 
 namespace Chatcraft
 {
+    /// <summary>
+    /// Статический класс, в котором хранятся вещи (полученные из тесктового файла)
+    /// Есть словарь вещей и идентичный ему список вещей.
+    /// </summary>
     public static class Items
     {
+        static Items()
+        {
+            foreach (var item in ItemsList)
+                ItemsDict.Add(item.Id, item);
+        }
+        /// <summary>
+        /// Словарь с вещами. Ключ- id вещи
+        /// </summary>
+        public static SortedDictionary<int, Item> ItemsDict = new SortedDictionary<int, Item>();
+
         public static List<Item> _items;
         /// <summary>
         /// Список предметов
@@ -22,8 +36,7 @@ namespace Chatcraft
                 if (_items == null)
                 { 
                 List<Item> _list = new List<Item>();
-                var itemList = File.ReadAllLines(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "//items//items.txt");
-                foreach (var item in itemList)
+                foreach (var item in File.ReadAllLines(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "//items//items.txt"))
                 {
                     _list.Add(JsonConvert.DeserializeObject<Item>(item));
                 }
@@ -45,11 +58,13 @@ namespace Chatcraft
         /// <returns></returns>
         public static Item GetItemById(int id)
         {
-            if (Items.ItemsList.Any(i => i.Id == id))
+            Item item = null;
+            if(ItemsDict.TryGetValue(id, out item))
+                return item;
+            else
             {
-                return ItemsList.FirstOrDefault(i => i.Id == id);
-            }
-            else return Items.ItemsList[0];
+                return Items.ItemsList[0];//не нашли- берем самую первую вещь
+            }            
         }
         /// <summary>
         /// Получить информацию о предмете
@@ -58,26 +73,29 @@ namespace Chatcraft
         /// <returns></returns>
         public static string GetItemInfo(int id)
         {
-            if (Items.ItemsList.Any(i => i.Id == id)) { 
             Item item = GetItemById(id);
-            var itemInfo = "Предмет: " + item.Name;
-            if (item.Atk != 0) itemInfo += "\nУрон: " + item.Atk.ToString("+#;-#;0");
-            if (item.Def != 0) itemInfo += "\nЗащита: " + item.Def.ToString("+#;-#;0");
-            if (item.ModStr != 0) itemInfo += "\nСила: " + item.ModStr.ToString("+#;-#;0");
-            if (item.ModDex != 0) itemInfo += "\nЛовкость: " + item.ModDex.ToString("+#;-#;0");
-            if (item.ModInt != 0) itemInfo += "\nИнтеллект: " + item.ModInt.ToString("+#;-#;0");
-            if (item.ModCon != 0) itemInfo += "\nВыносливость: " + item.ModCon.ToString("+#;-#;0");
-            if (item.ModCha != 0) itemInfo += "\nХаризма: " + item.ModCha.ToString("+#;-#;0");
-            if (item.ModLuck != 0) itemInfo += "\nУдача: " + item.ModLuck.ToString("+#;-#;0");
-            return itemInfo;
-            } else { return "Предмет не найден в базе"; }
+            if (item.Id == id)
+            {
+                var itemInfo = new StringBuilder();
+                itemInfo.Append($"Предмет: {item.Name}");
+                if (item.Atk != 0) itemInfo.Append($"\nУрон: {item.Atk.ToString("+#;-#;0")}");
+                if (item.Def != 0) itemInfo.Append($"\nЗащита: {item.Def.ToString("+#;-#;0")}");
+                if (item.ModStr != 0) itemInfo.Append($"\nСила: {item.ModStr.ToString("+#;-#;0")}");
+                if (item.ModDex != 0) itemInfo.Append($"\nЛовкость: {item.ModDex.ToString("+#;-#;0")}");
+                if (item.ModInt != 0) itemInfo.Append($"\nИнтеллект: {item.ModInt.ToString("+#;-#;0")}");
+                if (item.ModCon != 0) itemInfo.Append($"\nВыносливость: {item.ModCon.ToString("+#;-#;0")}");
+                if (item.ModCha != 0) itemInfo.Append($"\nХаризма: {item.ModCha.ToString("+#;-#;0")}");
+                if (item.ModLuck != 0) itemInfo.Append($"\nУдача: {item.ModLuck.ToString("+#;-#;0")}");
+                return itemInfo.ToString();
+            }
+            else { return "Предмет не найден в базе"; }
         }
-        
+
         public static string GetShortItemInfo(int id)
         {
-            if (Items.ItemsList.Any(i => i.Id == id))
+            Item item = GetItemById(id);
+            if (item.Id == id)
             {
-                Item item = GetItemById(id);
                 var itemInfo = new StringBuilder();
                 if (item.Atk != 0) itemInfo.Append($"⚔{item.Atk.ToString("+#;-#;0")}");
                 if (item.Def != 0) itemInfo.Append($"🛡{item.Def.ToString("+#;-#;0")}");
@@ -92,13 +110,19 @@ namespace Chatcraft
             else { return "Предмет не найден в базе"; }
         }
 
+        /// <summary>
+        /// Получить имя вещи по Id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public static string GetItemName(int id)
         {
-            if (Items.ItemsList.Any(i => i.Id == id))
-            {
-                return GetItemById(id).Name;
-            }
-            else { return "Предмет не найден в базе"; }
+            Item item = null;
+            ItemsDict.TryGetValue(id, out item);
+            if (item != null)
+                return item.Name;
+            else
+                return "Предмет не найден в базе";            
         }
     }
 }

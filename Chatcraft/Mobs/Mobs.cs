@@ -39,6 +39,16 @@ namespace Chatcraft.Mobs
             return MobList.FirstOrDefault(m => m.Id == id);
         }
         /// <summary>
+        /// Получить Босса зная его Id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public static Mob GetBossById(int id)
+        {
+            return BossList.FirstOrDefault(m => m.Id == id);
+        }
+
+        /// <summary>
         /// Вернуть моба по имени
         /// </summary>
         /// <param name="name"></param>
