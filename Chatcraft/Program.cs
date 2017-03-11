@@ -18,14 +18,14 @@ using Telegram.Bot.Types.ReplyMarkups;
 
 namespace Chatcraft
 {
-    class Program
+    public class Program
     {
         static TelegramBotClient Bot = BotClient.Instance;
         static SessionStorage sessions = new SessionStorage();
         static DateTime BotStartTime = DateTime.Now;
         static List<long> admins;
 
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             admins = new List<long>();
             
@@ -350,6 +350,9 @@ namespace Chatcraft
                         break;
                     case "Пещера ⬅":
                         currentSession.StartQuest("Пещера");
+                        break;
+                    case StringConstants.OLD_Castle:
+                        currentSession.StartQuest(StringConstants.OLD_Castle);
                         break;
                     //case "Шахта ➡":
                     //    currentSession.StartQuest("Лес");

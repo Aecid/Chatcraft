@@ -14,29 +14,36 @@ namespace Chatcraft
         public List<int> items { get; set; }
         public string rewardMessage;
 
-        public QuestRewards(questType quest, Player session)
+        public QuestRewards(QuestType quest, Player session)
         {
             Random rnd = new Random();
             items = new List<int>();
 
             switch (quest)
             {
-                case questType.Forest:
+                case QuestType.Forest:
                     gold = rnd.Next(1, 5);
                     exp = session.Level + rnd.Next(session.Level, session.Level*2+1);
                     if (rnd.Next(1, 101) <= 10)
                     {
-
-                        var r = Items.ItemsList.FindAll(i => i.LvlReq <= session.Level && i.CanBeLooted == true).OrderBy(i => Guid.NewGuid()).FirstOrDefault();
+                        var r = Items.ItemsList.FindAll(i => i.LvlReq <= session.Level && i.CanBeLooted).OrderBy(i => Guid.NewGuid()).FirstOrDefault();
                         items.Add(r.Id);
                     }
                     break;
-                case questType.Cave:
+                case QuestType.Cave:
                     gold = rnd.Next(5, 15);
                     exp = session.Level + rnd.Next(session.Level*2, session.Level * 3 + 1);
                     if (rnd.Next(1, 101) <= 10)
                     {
-
+                        var r = Items.ItemsList.FindAll(i => i.LvlReq <= session.Level && i.CanBeLooted == true).OrderBy(i => Guid.NewGuid()).FirstOrDefault();
+                        items.Add(r.Id);
+                    }
+                    break;
+                case QuestType.Castle:
+                    gold = rnd.Next(5, 25);
+                    exp = session.Level + rnd.Next(session.Level * 2, session.Level * 3 + 1);
+                    if (rnd.Next(1, 101) <= 10)
+                    {
                         var r = Items.ItemsList.FindAll(i => i.LvlReq <= session.Level && i.CanBeLooted == true).OrderBy(i => Guid.NewGuid()).FirstOrDefault();
                         items.Add(r.Id);
                     }
@@ -49,12 +56,12 @@ namespace Chatcraft
 
             var goldMessage = gold == 0 ? "" : "Золото: 💰" + gold.ToString() + "\n";
             var expMessage = exp == 0 ? "" : "Опыт: 🔥" + exp.ToString();
-            string itemsMessage = "";
+            var itemsMessage = new StringBuilder();
             if (items.Count > 0)
             {
                 foreach (var item in items)
                 {
-                    itemsMessage += "\n" + Items.GetItemName(item);
+                    itemsMessage.Append($"\n{Items.GetItemName(item)}");
                 }
             }
             rewardMessage = "Вы получили: \n" + goldMessage + expMessage + itemsMessage;

@@ -606,11 +606,14 @@ namespace Chatcraft
             {
                 switch (quest)
                 {
-                    case "Лес":
+                    case StringConstants.FOREST:
                         ForestQuest();
                         break;
-                    case "Пещера":
+                    case StringConstants.CAVE:
                         CaveQuest();
+                        break;
+                    case StringConstants.OLD_Castle:
+                        CastleQuest();
                         break;
                     default:
                         ForestQuest();
@@ -630,6 +633,11 @@ namespace Chatcraft
         public void CaveQuest()
         {
             QuestsPage.CaveQuest(this);
+        }
+
+        public void CastleQuest()
+        {
+            QuestsPage.CastleQuest(this);
         }
 
         public void AddGold(long amount)
