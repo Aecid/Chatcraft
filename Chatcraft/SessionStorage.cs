@@ -12,45 +12,47 @@ namespace Chatcraft
 {
     public class SessionStorage
     {
-        private List<Player> sessions;
+        private Dictionary<long,Player> chatIdToPlayersDict;
         string dir;
 
         public SessionStorage()
         {
-            sessions = new List<Player>();
+            chatIdToPlayersDict = new Dictionary<long, Player>();
             dir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
         }
 
         public Player GetSession(long chatId, string username = "")
         {
-            if (sessions.Exists(s => s.Id == chatId))
-            {
-                return sessions.FirstOrDefault(s => s.Id == chatId);
-            }
+            Player pl = null;
+            if (chatIdToPlayersDict.TryGetValue(chatId, out pl))
+                return chatIdToPlayersDict[chatId];
             else
             {
                 if (File.Exists(dir + "\\chars\\" + chatId + ".json"))
                 {
                     var currentSession = DeserializeSession(chatId.ToString());
-                    sessions.Add(currentSession);
+                    chatIdToPlayersDict.Add(chatId,currentSession);
                     return currentSession;
                 }
                 else
                 {
                     var currentSession = new Player();
                     currentSession.Id = chatId;
-                    currentSession.Username = username.Equals(string.Empty)?"UnnamedPlayer":username;
+                    currentSession.Username = username.Equals(string.Empty) ? "UnnamedPlayer" : username;
                     currentSession.Name = username;
                     currentSession.PageId = "MainPage";
-                    sessions.Add(currentSession);
+                    chatIdToPlayersDict.Add(chatId,currentSession);
                     return currentSession;
                 }
-            }
+            }            
         }
-
-        public List<Player> GetSessions()
+        /// <summary>
+        /// Получить словарь игроков
+        /// </summary>
+        /// <returns></returns>
+        public Dictionary<long,Player> GetPlayersSessions()
         {
-            return sessions;
+            return chatIdToPlayersDict;
         }
         /// <summary>
         /// Сериализация сессии игрока ( отдельный файл для каждого игрока)
@@ -66,35 +68,43 @@ namespace Chatcraft
             return Helper.ReadFromJsonFile<Player>(dir + "\\chars\\" + sessionId + ".json");
         }
 
-        public Player GetSessionByName(string name, Player session)
+        public Player GetPlayerByName(string name, Player player)
         {
-            if (sessions.FirstOrDefault(s => s.Name == name) != null)
+            Player pl = null;
+            foreach(var chatId in chatIdToPlayersDict.Keys)
             {
-                return sessions.FirstOrDefault(s => s.Name == name);
+                if(chatIdToPlayersDict[chatId].Name==name)
+                    return chatIdToPlayersDict[chatId];
             }
-
-            else return session;
+            return player;            
         }
 
         public void Broadcast(string message, bool info = true)
         {
             message = "<b>" + message + "</b>";
             if (info) message = "⚠ " + message;
-            foreach (var session in sessions)
+            foreach (var chatId in chatIdToPlayersDict.Keys)
             {
-                session.SendMessage(message);
+               chatIdToPlayersDict[chatId].SendMessage(message);
             }
         }
-
+        /// <summary>
+        /// Восстановить здоровье , если игрок не проходит квест
+        /// </summary>
         public void RegenNotInQuest()
         {
-            foreach (var session in sessions.FindAll(s=>s.InQuest==false))
+            foreach(var player in chatIdToPlayersDict.Where(x => x.Value.InQuest == false))
             {
-                session.Heal(10);
-                session.Mana(10);
-            }
+                player.Value.Heal(10);
+                player.Value.Mana(10);
+            }            
         }
 
+        /// <summary>
+        /// Начать драку (не сделано)
+        /// </summary>
+        /// <param name="player1"></param>
+        /// <param name="player2"></param>
         public async void StartCombat(Player player1, Player player2)
         {
 

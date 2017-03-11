@@ -109,9 +109,7 @@ namespace Chatcraft
         /// <returns></returns>
         public int GetLevel()
         {
-            GetExp();
-            var char_level = Level;
-            return char_level;
+            return Level;
         }
         /// <summary>
         /// Get hp
@@ -838,7 +836,9 @@ namespace Chatcraft
                 Persist();
             }
         }
-
+        /// <summary>
+        /// Повышение уровня
+        /// </summary>
         public void LevelUp()
         {
             SendMessage("🏆Поздравляем, вы получили новый уровень!🏆\nИспользуй /levelUp для повышения выбранной характеристики.");

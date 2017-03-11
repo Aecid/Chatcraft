@@ -301,7 +301,7 @@ namespace Chatcraft
                 if (txt.Contains(' '))
                 {
                     var name = txt.Split(' ')[1];
-                    await currentSession.SendMessage(sessions.GetSessionByName(name, currentSession).GetAlienStatus());
+                    await currentSession.SendMessage(sessions.GetPlayerByName(name, currentSession).GetAlienStatus());
                 }
 
             }

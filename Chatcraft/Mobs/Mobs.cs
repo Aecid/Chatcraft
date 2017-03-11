@@ -22,6 +22,9 @@ namespace Chatcraft.Mobs
             new Mob(3,3,"МыШ","маленькая надоедливая тварь. Кусает и пытается выколоть вам глаза",1,0,2,new Dictionary<int, int>{ { 230, 20 }, { 1, 99 } },"theBat.jpg")
         };
 
+        /// <summary>
+        /// Список боссов
+        /// </summary>
         public static List<Mob> BossList = new List<Mob>()
         {
             new Mob(100,10,"Огромный тролль","Огромное зеленое и тупое существо, желающее сожрать вас",5,10,100,new Dictionary<int, int>{ { 230, 20 }, { 1, 99 } },"BigTroll.png")
@@ -35,6 +38,16 @@ namespace Chatcraft.Mobs
         {
             return MobList.FirstOrDefault(m => m.Id == id);
         }
+        /// <summary>
+        /// Получить Босса зная его Id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public static Mob GetBossById(int id)
+        {
+            return BossList.FirstOrDefault(m => m.Id == id);
+        }
+
         /// <summary>
         /// Вернуть моба по имени
         /// </summary>
