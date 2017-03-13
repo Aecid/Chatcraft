@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chatcraft.CoreTests", "Chat
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{DAFBA4C2-A2D9-452B-92CF-6CEA7BB3B836}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatcraftBot", "..\ChatcraftBot\ChatcraftBot.csproj", "{9C3C2CC9-F121-4D26-AF2A-61523033925E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{DAFBA4C2-A2D9-452B-92CF-6CEA7BB3B836}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAFBA4C2-A2D9-452B-92CF-6CEA7BB3B836}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAFBA4C2-A2D9-452B-92CF-6CEA7BB3B836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C3C2CC9-F121-4D26-AF2A-61523033925E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C3C2CC9-F121-4D26-AF2A-61523033925E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C3C2CC9-F121-4D26-AF2A-61523033925E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C3C2CC9-F121-4D26-AF2A-61523033925E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
