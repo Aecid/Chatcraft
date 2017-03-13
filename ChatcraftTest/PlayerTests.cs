@@ -1,43 +1,43 @@
-using Chatcraft;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Moq;
+//using Chatcraft;
+//using Microsoft.VisualStudio.TestTools.UnitTesting;
+//using Moq;
 
-namespace ChatcraftTest
-{
-    [TestClass]
-    public class PlayerTests
-    {
-        private MockRepository mockRepository;
-
-
-
-        [TestInitialize]
-        public void TestInitialize()
-        {
-            this.mockRepository = new MockRepository(MockBehavior.Strict);
+//namespace ChatcraftTest
+//{
+//    [TestClass]
+//    public class PlayerTests
+//    {
+//        private MockRepository mockRepository;
 
 
-        }
 
-        [TestCleanup]
-        public void TestCleanup()
-        {
-            this.mockRepository.VerifyAll();
-        }
-
-        [TestMethod]
-        public void TestMethod1()
-        {
+//        [TestInitialize]
+//        public void TestInitialize()
+//        {
+//            this.mockRepository = new MockRepository(MockBehavior.Strict);
 
 
-            Player player = this.CreatePlayer();
+//        }
+
+//        [TestCleanup]
+//        public void TestCleanup()
+//        {
+//            this.mockRepository.VerifyAll();
+//        }
+
+//        [TestMethod]
+//        public void TestMethod1()
+//        {
 
 
-        }
+//            Player player = this.CreatePlayer();
 
-        private Player CreatePlayer()
-        {
-            return new Player();
-        }
-    }
-}
+
+//        }
+
+//        private Player CreatePlayer()
+//        {
+//            return new Player();
+//        }
+//    }
+//}
