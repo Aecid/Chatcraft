@@ -1,31 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Timers;
 using Telegram.Bot;
 using Telegram.Bot.Args;
-using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
-using Telegram.Bot.Types.InlineQueryResults;
-using Telegram.Bot.Types.InputMessageContents;
-using Telegram.Bot.Types.ReplyMarkups;
 
 namespace Chatcraft
 {
-    class Program
+    public class Program
     {
         static TelegramBotClient Bot = BotClient.Instance;
         static SessionStorage sessions = new SessionStorage();
         static DateTime BotStartTime = DateTime.Now;
         static List<long> admins;
 
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             admins = new List<long>();
             
@@ -301,7 +293,7 @@ namespace Chatcraft
                 if (txt.Contains(' '))
                 {
                     var name = txt.Split(' ')[1];
-                    await currentSession.SendMessage(sessions.GetSessionByName(name, currentSession).GetAlienStatus());
+                    await currentSession.SendMessage(sessions.GetPlayerByName(name, currentSession).GetAlienStatus());
                 }
 
             }
@@ -350,6 +342,9 @@ namespace Chatcraft
                         break;
                     case "Пещера ⬅":
                         currentSession.StartQuest("Пещера");
+                        break;
+                    case StringConstants.OLD_Castle:
+                        currentSession.StartQuest(StringConstants.OLD_Castle);
                         break;
                     //case "Шахта ➡":
                     //    currentSession.StartQuest("Лес");

@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  chatcraft.core:
+    image: chatcraft.core
+    build:
+      context: .\Chatcraft
+      dockerfile: Dockerfile
