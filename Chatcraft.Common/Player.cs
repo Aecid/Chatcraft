@@ -79,7 +79,10 @@ namespace Chatcraft
         public Dictionary<string, object> Equipment { get; set; }
         public bool Gender { get; set; }
         public int Guild;
-
+        /// <summary>
+        /// Последний интервал времени активности игрока
+        /// </summary>
+        private TimeSpan _lastTimeSpan;
         public Player()
         {
             InQuest = false;
@@ -102,6 +105,7 @@ namespace Chatcraft
             Statistic = new SortedDictionary<string, int>();
             Equipment = new Dictionary<string, object>();
             Achievements = new List<int>();
+            _lastTimeSpan = new TimeSpan(DateTime.UtcNow.Day, DateTime.UtcNow.Hour, DateTime.UtcNow.Minute);
         }
         /// <summary>
         /// get level
@@ -118,8 +122,29 @@ namespace Chatcraft
         public long GetHP()
         {
             var char_maxHP = GetMaxHP();
-            Hp = Hp > char_maxHP ? char_maxHP : Hp;
+            if (!NeedToResporeHp())
+            {
+                Hp = Hp > char_maxHP ? char_maxHP : Hp;
+            }
+            else
+            {
+                Hp = char_maxHP;                
+            }
             return Hp;
+        }
+        /// <summary>
+        /// Нужно ли восстановить игроку HP? (5 минут по-умолчанию)
+        /// </summary>
+        /// <returns></returns>
+        public bool NeedToResporeHp(int period=5)
+        {
+            var currentTs = new TimeSpan(DateTime.UtcNow.Ticks);
+
+            if (currentTs.TotalMinutes-_lastTimeSpan.TotalMinutes>period)// если прошло больше чем 5 минут,то true
+            {
+                return true;
+            }
+            return false;
         }
 
         /// <summary>
