@@ -142,6 +142,7 @@ namespace Chatcraft
 
             if (currentTs.TotalMinutes-_lastTimeSpan.TotalMinutes>period)// если прошло больше чем 5 минут,то true
             {
+                _lastTimeSpan = new TimeSpan(DateTime.UtcNow.Ticks);
                 return true;
             }
             return false;
