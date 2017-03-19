@@ -12,3 +12,16 @@ services:
     entrypoint: powershell -Command [System.Threading.Thread]::Sleep([System.Threading.Timeout]::Infinite)
     labels:
       - "com.microsoft.visualstudio.targetoperatingsystem=windows"
+
+  chatcraftbot:
+    image: chatcraftbot:dev
+    build:
+      args:
+        source: ${DOCKER_BUILD_SOURCE}
+    volumes:
+      - ./../ChatcraftBot:/app
+      - ~/.nuget/packages:/root/.nuget/packages:ro
+      - ~/clrdbg:/clrdbg:ro
+    entrypoint: tail -f /dev/null
+    labels:
+      - "com.microsoft.visualstudio.targetoperatingsystem=linux"
