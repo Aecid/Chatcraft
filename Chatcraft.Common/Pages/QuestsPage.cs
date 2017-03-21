@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.ReplyMarkups;
 using Chatcraft.Pages;
+using Chatcraft.Common.Pages;
 
 namespace Chatcraft
 {
@@ -94,7 +95,7 @@ namespace Chatcraft
             session.AddItem(reward.items);
             session.InQuest = false;
             session.Persist();
-            await session.SendMessage(Helper.GetRandomLine(EndingMessages)+"\n\n" + "Вы успешно прошли квест в Тёмном Лесу!\n" + reward.rewardMessage, MainPage.GetKeyboard());
+            await session.SendMessage($"{ Helper.GetRandomLine(EndingMessages)}\n\nВы успешно прошли квест в Тёмном Лесу!\n{reward.rewardMessage}", MainPage.GetKeyboard());
             }
 
             s.Stop();
@@ -144,6 +145,7 @@ namespace Chatcraft
             s.Reset();
 
             #region Room1
+            
             if (isAlive)
             {
                 i = 0;
@@ -165,6 +167,12 @@ namespace Chatcraft
                     }
                 }
             }
+
+            if(isAlive)
+            {
+                await player.SendMessage("Вы вошли в темное подземелье Замка...Надо выбрать направление", CastlePage.GetKeyboardSwitchTurn());                
+            }
+
 #endregion
 
             if (isAlive)
