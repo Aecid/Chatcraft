@@ -48,7 +48,10 @@ namespace Chatcraft
 
 
         
-
+        /// <summary>
+        /// Квест "Темный Лес"
+        /// </summary>
+        /// <param name="session"></param>
         public static async void ForestQuest(Player session)
         {
         List<string> StartingMessages = System.IO.File.ReadAllLines(pathToTextData + "ForestStart.txt").ToList();
@@ -166,7 +169,7 @@ namespace Chatcraft
 
             if (isAlive)
             {
-                var reward = new QuestRewards(QuestType.Cave, player);
+                var reward = new QuestRewards(QuestType.Castle, player);
                 player.AddStatsCounter("Заданий пройдено");
                 player.AddStatsCounter("Заданий в Замке пройдено");
                 player.AddGold(reward.gold);
