@@ -6,3 +6,9 @@ services:
     build:
       context: .\Chatcraft
       dockerfile: Dockerfile
+
+  chatcraftbot:
+    image: chatcraftbot
+    build:
+      context: ./../ChatcraftBot
+      dockerfile: Dockerfile
