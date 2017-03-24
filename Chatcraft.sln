@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chatcraft.CoreTests", "ChatcraftTest\Chatcraft.CoreTests.csproj", "{63137671-FCB7-4CEB-BA26-2A52F2692377}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatcraftBot", "..\ChatcraftBot\ChatcraftBot.csproj", "{9C3C2CC9-F121-4D26-AF2A-61523033925E}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chatcraft.Common", "Chatcraft.Common\Chatcraft.Common.csproj", "{708B55D4-8D56-41FD-B2C4-1128BF241377}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatcraftBot", "ChatcraftBot\ChatcraftBot.csproj", "{52645370-EDA8-428D-BCCB-A69FEEC65F38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{63137671-FCB7-4CEB-BA26-2A52F2692377}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63137671-FCB7-4CEB-BA26-2A52F2692377}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63137671-FCB7-4CEB-BA26-2A52F2692377}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9C3C2CC9-F121-4D26-AF2A-61523033925E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C3C2CC9-F121-4D26-AF2A-61523033925E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C3C2CC9-F121-4D26-AF2A-61523033925E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C3C2CC9-F121-4D26-AF2A-61523033925E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{708B55D4-8D56-41FD-B2C4-1128BF241377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{708B55D4-8D56-41FD-B2C4-1128BF241377}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{708B55D4-8D56-41FD-B2C4-1128BF241377}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{708B55D4-8D56-41FD-B2C4-1128BF241377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52645370-EDA8-428D-BCCB-A69FEEC65F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52645370-EDA8-428D-BCCB-A69FEEC65F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52645370-EDA8-428D-BCCB-A69FEEC65F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52645370-EDA8-428D-BCCB-A69FEEC65F38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
