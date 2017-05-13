@@ -1,4 +1,6 @@
 ﻿
+using Chatcraft.Common;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -17,10 +19,14 @@ namespace Chatcraft
         static SessionStorage sessions = new SessionStorage();
         static DateTime BotStartTime = DateTime.Now;
         static List<long> admins;
-        
+        private static ILogger _logger;
         public static void Main(string[] args)
         {
-           
+            _logger = StaticUtils.LoggerFactory.CreateLogger<Program>();
+
+            _logger.LogInformation(
+              "This is a test of the emergency broadcast system. {0}",1);
+
             admins = new List<long>();
             admins.Add(128008543);
 
@@ -28,6 +34,10 @@ namespace Chatcraft
             Bot.OnMessage += BotOnMessageReceived;
             Bot.OnInlineResultChosen += BotOnChosenInlineResultReceived;
             Bot.OnReceiveError += BotOnReceiveError;
+
+           
+
+            
 
             var timer = new System.Threading.Timer(
                 e => sessions.RegenNotInQuest(),
@@ -40,33 +50,24 @@ namespace Chatcraft
             Console.Title = me.Username;
             Console.OutputEncoding = Encoding.UTF8;
             Console.WriteLine("Превед!");
-          
+            //Bot.GetUpdates();
             Bot.StartReceiving();
-            Console.ReadLine();
-            Bot.StopReceiving();
+            var line=Console.ReadLine();
+            if (string.Equals(line, "exit", StringComparison.CurrentCultureIgnoreCase))
+            {
+                Bot.StopReceiving();
+               
+            }
         }
 
         private static void BotOnReceiveError(object sender, ReceiveErrorEventArgs receiveErrorEventArgs)
         {
-            try
-            {
-                foreach (var admin in admins)//отсылаем логи админам
-                {
-                    BotClient.Instance.SendTextMessageAsync(admin, String.Format("{0} {1}", receiveErrorEventArgs.ApiRequestException.Message, receiveErrorEventArgs.ApiRequestException.StackTrace), parseMode: ParseMode.Html).ConfigureAwait(false);
-                }
-            }
-            catch(Exception ex)
-            {
-                foreach (var admin in admins)//отсылаем логи админам
-                {
-                    BotClient.Instance.SendTextMessageAsync(admin, String.Format("{0} {1}", ex.Message, ex.StackTrace), parseMode: ParseMode.Html).ConfigureAwait(false);
-                }
-            }
+            _logger.LogError(String.Format("{0} {1}", receiveErrorEventArgs.ApiRequestException.Message, receiveErrorEventArgs.ApiRequestException.StackTrace));
         }
 
         private static void BotOnChosenInlineResultReceived(object sender, ChosenInlineResultEventArgs chosenInlineResultEventArgs)
-        {
-            Console.WriteLine($"Received choosen inline result: {chosenInlineResultEventArgs.ChosenInlineResult.ResultId}");
+        {            
+            _logger.LogError($"Received choosen inline result: {chosenInlineResultEventArgs.ChosenInlineResult.ResultId}");
         }
 
         private static async void BotOnMessageReceived(object sender, MessageEventArgs messageEventArgs)
@@ -81,8 +82,9 @@ namespace Chatcraft
                 username = message.Chat.Username == null ? "UnnamedPlayer" : message.Chat.Username;
                 currentSession = sessions.GetSession(message.Chat.Id, username);
 
-                Console.WriteLine("{0} Message by username: {1}, chatId: {2}, message body: {3}", DateTime.Now.ToString("HH:mm:ss tt"), username, message.Chat.Id, message.Text);
-
+                //Console.WriteLine("{0} Message by username: {1}, chatId: {2}, message body: {3}", DateTime.Now.ToString("HH:mm:ss tt"), username, message.Chat.Id, message.Text);
+                _logger.LogInformation("{0} Message by username: {1}, chatId: {2}, message body: {3}", DateTime.Now.ToString("HH:mm:ss tt"), username, message.Chat.Id, message.Text);
+               
                 if (message.Text.StartsWith("/broadcast"))
                 {
                     if (admins.Contains(message.Chat.Id))
@@ -131,7 +133,7 @@ namespace Chatcraft
 
                 if (message.Text.StartsWith("Приключения"))
                 {
-                    if (!currentSession.InQuest)
+                    if (!currentSession.GetInQuest())
                     {
                         currentSession.SendInlineMessage("Вы видите огромный столб, а на нём куча указателей.", QuestsPage.GetKeyboard());
                     }
@@ -146,7 +148,7 @@ namespace Chatcraft
                     currentSession.ShowBackpack();
                 }
 
-                if (!currentSession.InQuest)
+                if (!currentSession.GetInQuest())
                 {
                     if (message.Text.StartsWith("Магазин"))
                     {
@@ -317,10 +319,12 @@ namespace Chatcraft
             }
             catch(Exception ex)
             {
-                foreach (var admin in admins)//отсылаем логи админам
-                {
-                    BotClient.Instance.SendTextMessageAsync(admin, String.Format("{0} {1}",ex.Message,ex.StackTrace), parseMode: ParseMode.Html).ConfigureAwait(false);
-                }
+                _logger.LogError(String.Format("{0} {1}", ex.Message, ex.StackTrace));
+                //foreach (var admin in admins)//отсылаем логи админам
+                //{
+                //   // BotClient.Instance.SendTextMessageAsync(admin, String.Format("{0} {1}",ex.Message,ex.StackTrace), parseMode: ParseMode.Html).ConfigureAwait(false);
+
+                //}
             }
 
         }
@@ -402,10 +406,11 @@ namespace Chatcraft
             }
             catch (Exception ex)
             {
-                foreach (var admin in admins)//отсылаем логи админам
-                {
-                    BotClient.Instance.SendTextMessageAsync(admin, String.Format("{0} {1}", ex.Message, ex.StackTrace), parseMode: ParseMode.Html).ConfigureAwait(false);
-                }
+                _logger.LogError(String.Format("{0} {1}", ex.Message, ex.StackTrace));
+                //foreach (var admin in admins)//отсылаем логи админам
+                //{
+                //    BotClient.Instance.SendTextMessageAsync(admin, String.Format("{0} {1}", ex.Message, ex.StackTrace), parseMode: ParseMode.Html).ConfigureAwait(false);
+                //}
             }
         }
     }

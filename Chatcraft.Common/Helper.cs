@@ -103,7 +103,11 @@ namespace Chatcraft
             try
             {
                 var contentsToWriteToFile = JsonConvert.SerializeObject(session);
-                var stream = new FileStream(filePath, FileMode.Append);
+                FileStream stream = null;
+                if (append)
+                    stream = new FileStream(filePath, FileMode.Append);
+                else
+                    stream = new FileStream(filePath, FileMode.Truncate);
                 writer = new StreamWriter(stream);    
                 //writer=new StreamWriter()
                 writer.Write(contentsToWriteToFile);
