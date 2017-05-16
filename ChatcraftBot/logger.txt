@@ -1,0 +1,1143 @@
+This is a test of the emergency broadcast system.
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+This is a test of the emergency broadcast system.
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+This is a test of the emergency broadcast system.
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+This is a test of the emergency broadcast system.
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+This is a test of the emergency broadcast system.
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+This is a test of the emergency broadcast system.
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+Conflict: terminated by other long poll or webhook    at Telegram.Bot.TelegramBotClient.<SendWebRequestAsync>d__125`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Telegram.Bot.TelegramBotClient.<ReceiveAsync>d__54.MoveNext()
+An error occurred while writing to logger(s). (Index (zero based) must be greater than or equal to zero and less than the size of the argument list.) (Index (zero based) must be greater than or equal to zero and less than the size of the argument list.)    at Microsoft.Extensions.Logging.Logger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.Logger`1.Microsoft.Extensions.Logging.ILogger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.LoggerExtensions.LogInformation(ILogger logger, String message, Object[] args)
+   at Chatcraft.Program.<BotOnMessageReceived>d__8.MoveNext()
+This is a test of the emergency broadcast system.
+This is a test of the emergency broadcast system. 1
+This is a test of the emergency broadcast system. 1
+This is a test of the emergency broadcast system. 1
+18:26:29  Message by username: UnnamedPlayer, chatId: 128008543, message body: Статус
+This is a test of the emergency broadcast system. 1
+18:28:34  Message by username: UnnamedPlayer, chatId: 128008543, message body: Статус
+18:28:37  Message by username: UnnamedPlayer, chatId: 128008543, message body: Приключения
+18:28:42  Message by username: UnnamedPlayer, chatId: 128008543, message body: Магазин
+18:28:45  Message by username: UnnamedPlayer, chatId: 128008543, message body: Приключения
+This is a test of the emergency broadcast system. 1
+18:35:14  Message by username: UnnamedPlayer, chatId: 128008543, message body: Приключения
+18:35:23  Message by username: UnnamedPlayer, chatId: 128008543, message body: Приключения
+This is a test of the emergency broadcast system. 1
+18:38:54  Message by username: UnnamedPlayer, chatId: 128008543, message body: Приключения
+18:39:22  Message by username: UnnamedPlayer, chatId: 128008543, message body: Приключения
+18:39:30  Message by username: UnnamedPlayer, chatId: 128008543, message body: Приключения
+This is a test of the emergency broadcast system. 1
+18:39:56  Message by username: UnnamedPlayer, chatId: 128008543, message body: Приключения
+18:40:01  Message by username: UnnamedPlayer, chatId: 128008543, message body: Приключения
+18:40:43  Message by username: UnnamedPlayer, chatId: 128008543, message body: Приключения
+18:40:49  Message by username: UnnamedPlayer, chatId: 128008543, message body: Placeholder
+18:40:50  Message by username: UnnamedPlayer, chatId: 128008543, message body: Приключения
+This is a test of the emergency broadcast system. 1
+18:42:14  Message by username: UnnamedPlayer, chatId: 128008543, message body: Приключения
+18:42:23  Message by username: UnnamedPlayer, chatId: 128008543, message body: Приключения
+This is a test of the emergency broadcast system. 1
+18:48:26  Message by username: UnnamedPlayer, chatId: 128008543, message body: Приключения

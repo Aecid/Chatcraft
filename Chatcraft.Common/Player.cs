@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Chatcraft.Common;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -43,10 +44,11 @@ namespace Chatcraft
         /// Name
         /// </summary>
         public string Name { get; set; }
+        
         /// <summary>
         /// is in Equest?
         /// </summary>
-        public bool InQuest { get; set; }
+        private bool _InQuest { get; set; }
         /// <summary>
         /// Experiense
         /// </summary>
@@ -85,7 +87,7 @@ namespace Chatcraft
         private TimeSpan _lastTimeSpan;
         public Player()
         {
-            InQuest = false;
+            _InQuest = false;
             Exp = 0;
             Level = 1;
             Gold = 0;
@@ -107,6 +109,18 @@ namespace Chatcraft
             Achievements = new List<int>();
             _lastTimeSpan = new TimeSpan(DateTime.UtcNow.Day, DateTime.UtcNow.Hour, DateTime.UtcNow.Minute);
         }
+
+        /// <summary>
+        /// Обновить все "внешние" данные об игроке
+        /// Например, сбросить прохождение квеста, если он в нем "завис"
+        /// </summary>
+        public void Update()
+        {
+            RefreshQuest();
+            GetHP();
+            GetMP();
+        }
+
         /// <summary>
         /// get level
         /// </summary>
@@ -148,6 +162,31 @@ namespace Chatcraft
             return false;
         }
 
+        
+
+        /// <summary>
+        /// Если игрок "завис", то обнулить квест
+        /// </summary>
+        public void RefreshQuest()
+        {
+            var currentTs = new TimeSpan(DateTime.UtcNow.Ticks);
+            if (currentTs.TotalMinutes - _lastTimeSpan.TotalMinutes > Globals.MAX_QUEST_TIME_MIN)// если прошло больше чем 5 минут,то true
+            {
+                _InQuest = false;//обнуляем его квестовые задания
+            }
+        }
+
+
+        public bool GetInQuest()
+        {
+            Update();
+            return _InQuest;
+        }
+
+        public void SetInQuest(bool inQuest)
+        {
+            _InQuest = inQuest;
+        }
         /// <summary>
         /// get mana points
         /// </summary>
@@ -155,7 +194,14 @@ namespace Chatcraft
         public long GetMP()
         {
             var char_maxMP = GetMaxMP();
-            Mp = Mp > char_maxMP ? char_maxMP : Mp;
+            if (!NeedToResporeHp())
+            {
+                Mp = Mp > char_maxMP ? char_maxMP : Mp;
+            }
+            else
+            {
+                Mp = char_maxMP;
+            }
             return Mp;
         }
         /// <summary>
@@ -168,6 +214,7 @@ namespace Chatcraft
             Hp = Hp > char_maxHP ? char_maxHP : Hp;
             return char_maxHP;
         }
+
         /// <summary>
         /// get maximum mana points
         /// </summary>
@@ -513,6 +560,7 @@ namespace Chatcraft
         public void Persist()
         {
             Helper.WriteToJsonFile(Path.GetDirectoryName(Assembly.GetEntryAssembly().Location) + "//chars//" + Id + ".json", this);
+            RefreshQuest();
         }
 
         /// <summary>
@@ -628,7 +676,8 @@ namespace Chatcraft
         /// <param name="quest"></param>
         public void StartQuest(string quest)
         {
-            if (!InQuest)
+            Update();
+            if (!_InQuest)
             {
                 switch (quest)
                 {

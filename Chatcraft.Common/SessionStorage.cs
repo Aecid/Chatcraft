@@ -12,6 +12,9 @@ namespace Chatcraft
 {
     public class SessionStorage
     {
+        /// <summary>
+        /// Словарь игроков
+        /// </summary>
         private Dictionary<long,Player> chatIdToPlayersDict;
         string dir;
 
@@ -37,6 +40,7 @@ namespace Chatcraft
                 else
                 {
                     var currentSession = new Player();
+                    currentSession.Update();
                     currentSession.Id = chatId;
                     currentSession.Username = username.Equals(string.Empty) ? "UnnamedPlayer" : username;
                     currentSession.Name = username;
@@ -93,7 +97,7 @@ namespace Chatcraft
         /// </summary>
         public void RegenNotInQuest()
         {
-            foreach(var player in chatIdToPlayersDict.Where(x => x.Value.InQuest == false))
+            foreach(var player in chatIdToPlayersDict.Where(x => x.Value.GetInQuest() == false))
             {
                 player.Value.Heal(10);
                 player.Value.Mana(10);
@@ -109,8 +113,8 @@ namespace Chatcraft
         {
 
 
-            player1.InQuest = true;
-            player2.InQuest = true;
+            player1.SetInQuest(true);
+            player2.SetInQuest(true);
             Stopwatch s = new Stopwatch();
             s.Start();
             int i = 0;
