@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Chatcraft.Common;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -7,6 +8,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 
 namespace Chatcraft
 {
@@ -64,12 +66,28 @@ namespace Chatcraft
         /// <param name="session"></param>
         public void SerializeSession(Player session)
         {
-            Helper.WriteToJsonFile(dir + "//chars//" + session.Id + ".json", session);
+            try
+            {
+                Helper.WriteToJsonFile(dir + "//chars//" + session.Id + ".json", session);
+            }
+            catch (Exception ex)
+            {
+                StaticUtils.Logger.LogError("PlayerId: {0} {1} {2}", session.Id, ex.Message, ex.StackTrace);
+            }
+          
         }
 
         public Player DeserializeSession(string sessionId)
         {
-            return Helper.ReadFromJsonFile<Player>(dir + "//chars//" + sessionId + ".json");
+            try
+            {
+                return Helper.ReadFromJsonFile<Player>(dir + "//chars//" + sessionId + ".json");
+            }
+            catch(Exception ex)
+            {
+                StaticUtils.Logger.LogError("PlayerId: {0} {1} {2}", sessionId, ex.Message, ex.StackTrace);
+            }
+            return null;
         }
 
         public Player GetPlayerByName(string name, Player player)
