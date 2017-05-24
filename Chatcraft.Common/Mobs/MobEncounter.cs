@@ -83,6 +83,7 @@ namespace Chatcraft.Pages
                 {
                     encounter.Append($"\n{mob.Name} убил вас и поглумился над вашим трупом");
                     session.DealDamage(session.GetMaxHP());
+                    
                     outcome = false;
                     break;
                 }
