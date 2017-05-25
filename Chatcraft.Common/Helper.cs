@@ -14,8 +14,9 @@ using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.InlineQueryResults;
 using Telegram.Bot.Types.InputMessageContents;
 using Telegram.Bot.Types.ReplyMarkups;
-
+using Microsoft.Extensions.Logging;
 using Chatcraft;
+using Chatcraft.Common;
 
 namespace Chatcraft
 {
@@ -99,6 +100,7 @@ namespace Chatcraft
 
         public static void WriteToJsonFile<Session>(string filePath, Session session, bool append = false) where Session : new()
         {
+             
             TextWriter writer = null;
             try
             {
@@ -111,6 +113,10 @@ namespace Chatcraft
                 writer = new StreamWriter(stream);    
                 //writer=new StreamWriter()
                 writer.Write(contentsToWriteToFile);
+            }
+            catch(Exception ex)
+            {
+                StaticUtils.Logger.LogError("FilePath:{0} {1} {2}",filePath,ex.Message, ex.StackTrace);
             }
             finally
             {

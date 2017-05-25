@@ -22,7 +22,7 @@ namespace Chatcraft
         private static ILogger _logger;
         public static void Main(string[] args)
         {
-            _logger = StaticUtils.LoggerFactory.CreateLogger<Program>();
+            _logger = StaticUtils.Logger;
 
             _logger.LogInformation(
               "This is a test of the emergency broadcast system. {0}",1);
